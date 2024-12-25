@@ -1,0 +1,15 @@
+2024-12-25 09:57:03,296 - INFO - Server listening on localhost:9992
+2024-12-25 09:58:37,513 - INFO - Server listening on localhost:9992
+2024-12-25 10:00:29,173 - INFO - Services: [{'server_ip': 'localhost', 'server_port': 9991, 'output_raw': './output/1_cuda0_{}.raw', 'device': 'cuda:0'}, {'server_ip': 'localhost', 'server_port': 9992, 'output_raw': './output/2_cuda1_{}.raw', 'device': 'cuda:1'}, {'server_ip': 'localhost', 'server_port': 9993, 'output_raw': './output/3_cuda2_{}.raw', 'device': 'cuda:2'}]
+2024-12-25 10:00:41,084 - INFO - Server listening on localhost:9992
+2024-12-25 10:11:00,029 - INFO - Accepted connection from ('127.0.0.1', 49330)
+2024-12-25 10:16:31,720 - INFO - Accepted connection from ('127.0.0.1', 42392)
+2024-12-25 10:16:59,627 - INFO - Accepted connection from ('127.0.0.1', 44168)
+2024-12-25 10:19:43,791 - INFO - Accepted connection from ('127.0.0.1', 54916)
+2024-12-25 10:20:36,653 - INFO - Accepted connection from ('127.0.0.1', 58366)
+2024-12-25 10:38:12,356 - INFO - Accepted connection from ('127.0.0.1', 47484)
+2024-12-25 10:38:21,726 - INFO - Error during processing: [Errno 104] Connection reset by peer
+2024-12-25 10:41:05,712 - INFO - Accepted connection from ('127.0.0.1', 58890)
+2024-12-25 10:44:12,792 - INFO - Accepted connection from ('127.0.0.1', 43736)
+2024-12-25 10:51:23,400 - INFO - Accepted connection from ('127.0.0.1', 43232)
+2024-12-25 10:52:06,530 - INFO - Accepted connection from ('127.0.0.1', 45960)

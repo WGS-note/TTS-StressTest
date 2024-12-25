@@ -1,0 +1,26 @@
+2024-12-25 09:56:48,819 - INFO - Server listening on localhost:9991
+2024-12-25 09:58:22,834 - INFO - Server listening on localhost:9991
+2024-12-25 10:00:13,108 - INFO - Services: [{'server_ip': 'localhost', 'server_port': 9991, 'output_raw': './output/1_cuda0_{}.raw', 'device': 'cuda:0'}, {'server_ip': 'localhost', 'server_port': 9992, 'output_raw': './output/2_cuda1_{}.raw', 'device': 'cuda:1'}, {'server_ip': 'localhost', 'server_port': 9993, 'output_raw': './output/3_cuda2_{}.raw', 'device': 'cuda:2'}]
+2024-12-25 10:00:26,170 - INFO - Server listening on localhost:9991
+2024-12-25 10:10:56,991 - INFO - Accepted connection from ('127.0.0.1', 59802)
+2024-12-25 10:11:09,309 - INFO - Accepted connection from ('127.0.0.1', 60588)
+2024-12-25 10:16:31,719 - INFO - Accepted connection from ('127.0.0.1', 53048)
+2024-12-25 10:16:38,339 - INFO - Accepted connection from ('127.0.0.1', 53486)
+2024-12-25 10:16:59,626 - INFO - Accepted connection from ('127.0.0.1', 54824)
+2024-12-25 10:17:06,046 - INFO - Accepted connection from ('127.0.0.1', 55208)
+2024-12-25 10:19:43,790 - INFO - Accepted connection from ('127.0.0.1', 37340)
+2024-12-25 10:19:50,264 - INFO - Accepted connection from ('127.0.0.1', 37750)
+2024-12-25 10:20:36,653 - INFO - Accepted connection from ('127.0.0.1', 40790)
+2024-12-25 10:20:36,654 - INFO - Accepted connection from ('127.0.0.1', 40796)
+2024-12-25 10:38:12,355 - INFO - Accepted connection from ('127.0.0.1', 58140)
+2024-12-25 10:38:12,357 - INFO - Accepted connection from ('127.0.0.1', 58146)
+2024-12-25 10:38:21,981 - INFO - Error during processing: [Errno 104] Connection reset by peer
+2024-12-25 10:38:21,984 - INFO - Error during processing: [Errno 104] Connection reset by peer
+2024-12-25 10:41:05,711 - INFO - Accepted connection from ('127.0.0.1', 41314)
+2024-12-25 10:41:05,713 - INFO - Accepted connection from ('127.0.0.1', 41320)
+2024-12-25 10:44:12,792 - INFO - Accepted connection from ('127.0.0.1', 54392)
+2024-12-25 10:44:12,795 - INFO - Accepted connection from ('127.0.0.1', 54398)
+2024-12-25 10:51:20,366 - INFO - Accepted connection from ('127.0.0.1', 53714)
+2024-12-25 10:51:32,722 - INFO - Accepted connection from ('127.0.0.1', 54518)
+2024-12-25 10:52:06,529 - INFO - Accepted connection from ('127.0.0.1', 56616)
+2024-12-25 10:52:12,860 - INFO - Accepted connection from ('127.0.0.1', 57038)
