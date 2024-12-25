@@ -3,13 +3,15 @@
 > 需要 `F5-TTS` 环境
 
 ```python
-# 服务端启动，简单实现负载均衡
-python -m stressTest.service 3*3
+# 服务端启动，简单实现负载均衡   3,3: 3个实例部在3个GPU
+python -m stressTest.service 3,3
+# python -m stressTest.service 2,1
 ```
 
 ```python
-# 客户端启动测试
-python -m stressTest.client 3*3 1
+# 客户端启动测试   1: 1并发
+python -m stressTest.client 3,3 1
+# python -m stressTest.client 2,1 2
 ```
 
 测试维度：
