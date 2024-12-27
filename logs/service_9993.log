@@ -1,15 +1,54 @@
-2024-12-25 09:57:17,330 - INFO - Server listening on localhost:9993
-2024-12-25 09:58:51,490 - INFO - Server listening on localhost:9993
-2024-12-25 10:00:44,088 - INFO - Services: [{'server_ip': 'localhost', 'server_port': 9991, 'output_raw': './output/1_cuda0_{}.raw', 'device': 'cuda:0'}, {'server_ip': 'localhost', 'server_port': 9992, 'output_raw': './output/2_cuda1_{}.raw', 'device': 'cuda:1'}, {'server_ip': 'localhost', 'server_port': 9993, 'output_raw': './output/3_cuda2_{}.raw', 'device': 'cuda:2'}]
-2024-12-25 10:00:57,016 - INFO - Server listening on localhost:9993
-2024-12-25 10:11:03,281 - INFO - Accepted connection from ('127.0.0.1', 41862)
-2024-12-25 10:16:31,720 - INFO - Accepted connection from ('127.0.0.1', 34714)
-2024-12-25 10:16:59,627 - INFO - Accepted connection from ('127.0.0.1', 36490)
-2024-12-25 10:19:43,791 - INFO - Accepted connection from ('127.0.0.1', 47238)
-2024-12-25 10:20:36,654 - INFO - Accepted connection from ('127.0.0.1', 50688)
-2024-12-25 10:38:12,357 - INFO - Accepted connection from ('127.0.0.1', 39806)
-2024-12-25 10:38:21,769 - INFO - Error during processing: [Errno 104] Connection reset by peer
-2024-12-25 10:41:05,712 - INFO - Accepted connection from ('127.0.0.1', 51212)
-2024-12-25 10:44:12,793 - INFO - Accepted connection from ('127.0.0.1', 36058)
-2024-12-25 10:51:26,689 - INFO - Accepted connection from ('127.0.0.1', 35762)
-2024-12-25 10:52:06,530 - INFO - Accepted connection from ('127.0.0.1', 38282)
+2024-12-27 09:27:27,984 - INFO - Service: {'server_ip': 'localhost', 'server_port': 9993, 'output_raw': './output/3_cuda0_{}.raw', 'device': 'cuda:0'}
+2024-12-27 09:27:35,787 - INFO - Server listening on localhost:9993
+2024-12-27 09:31:21,742 - INFO - Accepted connection from ('127.0.0.1', 36314)
+2024-12-27 09:32:09,516 - INFO - Accepted connection from ('127.0.0.1', 37124)
+2024-12-27 09:33:03,306 - INFO - Accepted connection from ('127.0.0.1', 46250)
+2024-12-27 09:33:57,470 - INFO - Accepted connection from ('127.0.0.1', 41136)
+2024-12-27 09:33:57,472 - INFO - Accepted connection from ('127.0.0.1', 41142)
+2024-12-27 09:33:57,473 - INFO - Accepted connection from ('127.0.0.1', 41148)
+2024-12-27 09:35:02,715 - INFO - Accepted connection from ('127.0.0.1', 56202)
+2024-12-27 09:35:02,717 - INFO - Accepted connection from ('127.0.0.1', 56208)
+2024-12-27 09:35:02,718 - INFO - Accepted connection from ('127.0.0.1', 56214)
+2024-12-27 09:35:02,740 - INFO - Accepted connection from ('127.0.0.1', 56220)
+2024-12-27 09:36:49,379 - INFO - Service: {'server_ip': 'localhost', 'server_port': 9993, 'output_raw': './output/3_cuda0_{}.raw', 'device': 'cuda:0'}
+2024-12-27 09:36:56,269 - INFO - Server listening on localhost:9993
+2024-12-27 09:41:21,059 - INFO - Accepted connection from ('127.0.0.1', 53880)
+2024-12-27 09:43:20,182 - INFO - Accepted connection from ('127.0.0.1', 36668)
+2024-12-27 09:44:36,308 - INFO - Accepted connection from ('127.0.0.1', 35090)
+2024-12-27 09:45:23,184 - INFO - Accepted connection from ('127.0.0.1', 37826)
+2024-12-27 09:45:23,186 - INFO - Accepted connection from ('127.0.0.1', 37834)
+2024-12-27 09:46:22,533 - INFO - Accepted connection from ('127.0.0.1', 47278)
+2024-12-27 09:46:22,535 - INFO - Accepted connection from ('127.0.0.1', 47286)
+2024-12-27 09:46:22,536 - INFO - Accepted connection from ('127.0.0.1', 47294)
+2024-12-27 09:54:02,932 - INFO - Service: {'server_ip': 'localhost', 'server_port': 9993, 'output_raw': './output/3_cuda2_{}.raw', 'device': 'cuda:2'}
+2024-12-27 09:54:10,010 - INFO - Server listening on localhost:9993
+2024-12-27 09:58:09,218 - INFO - Accepted connection from ('127.0.0.1', 45620)
+2024-12-27 09:58:38,834 - INFO - Accepted connection from ('127.0.0.1', 48200)
+2024-12-27 09:59:25,625 - INFO - Accepted connection from ('127.0.0.1', 58294)
+2024-12-27 10:00:19,165 - INFO - Accepted connection from ('127.0.0.1', 37252)
+2024-12-27 10:02:41,112 - INFO - Accepted connection from ('127.0.0.1', 49470)
+2024-12-27 10:02:41,113 - INFO - Accepted connection from ('127.0.0.1', 49476)
+2024-12-27 10:02:41,114 - INFO - Accepted connection from ('127.0.0.1', 49484)
+2024-12-27 10:03:35,149 - INFO - Accepted connection from ('127.0.0.1', 52534)
+2024-12-27 10:03:35,151 - INFO - Accepted connection from ('127.0.0.1', 52540)
+2024-12-27 10:03:35,152 - INFO - Accepted connection from ('127.0.0.1', 52546)
+2024-12-27 10:03:35,164 - INFO - Accepted connection from ('127.0.0.1', 52552)
+2024-12-27 10:05:36,562 - INFO - Service: {'server_ip': 'localhost', 'server_port': 9993, 'output_raw': './output/3_cuda2_{}.raw', 'device': 'cuda:2'}
+2024-12-27 10:05:44,009 - INFO - Server listening on localhost:9993
+2024-12-27 10:11:02,342 - INFO - Accepted connection from ('127.0.0.1', 53970)
+2024-12-27 10:13:30,870 - INFO - Accepted connection from ('127.0.0.1', 41708)
+2024-12-27 10:14:21,726 - INFO - Accepted connection from ('127.0.0.1', 59710)
+2024-12-27 10:15:13,233 - INFO - Accepted connection from ('127.0.0.1', 49630)
+2024-12-27 10:15:13,234 - INFO - Accepted connection from ('127.0.0.1', 49642)
+2024-12-27 10:16:03,056 - INFO - Accepted connection from ('127.0.0.1', 50332)
+2024-12-27 10:16:03,058 - INFO - Accepted connection from ('127.0.0.1', 50344)
+2024-12-27 10:17:33,652 - INFO - Service: {'server_ip': 'localhost', 'server_port': 9993, 'output_raw': './output/3_cuda2_{}.raw', 'device': 'cuda:2'}
+2024-12-27 10:17:40,677 - INFO - Server listening on localhost:9993
+2024-12-27 10:22:08,124 - INFO - Accepted connection from ('127.0.0.1', 53458)
+2024-12-27 10:23:01,101 - INFO - Accepted connection from ('127.0.0.1', 38994)
+2024-12-27 10:23:48,097 - INFO - Accepted connection from ('127.0.0.1', 57048)
+2024-12-27 10:24:28,259 - INFO - Accepted connection from ('127.0.0.1', 54134)
+2024-12-27 10:24:28,260 - INFO - Accepted connection from ('127.0.0.1', 54142)
+2024-12-27 10:25:09,033 - INFO - Accepted connection from ('127.0.0.1', 44744)
+2024-12-27 10:25:09,035 - INFO - Accepted connection from ('127.0.0.1', 44752)
+2024-12-27 10:25:09,036 - INFO - Accepted connection from ('127.0.0.1', 44760)

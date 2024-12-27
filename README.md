@@ -2,30 +2,29 @@
 
 > 需要 `F5-TTS` 环境
 
++ 服务端启动，简单实现负载均衡   4,4: 4个实例部在4个GPU
 ```python
-# 服务端启动，简单实现负载均衡   3,3: 3个实例部在3个GPU
-python -m stressTest.service 3,3
-# python -m stressTest.service 2,1
+bash ./service.sh "4,4"
 ```
 
++ 客户端启动测试   负载均衡服务是 4,4，模拟请求12并发
 ```python
-# 客户端启动测试   1: 1并发
-python -m stressTest.client 3,3 1
-# python -m stressTest.client 2,1 2
+python -m stressTest.client 4,4 12
 ```
 
-测试维度：
++ 测试维度：
 
 ```python
-[STATS] 平均响应时间: 5.94 秒
-[STATS] 吞吐量: 0.38 请求/秒
+[DEBUG] total_time: 11.64s
+[STATS] 平均响应时间: 8.72s
+[STATS] 吞吐量: 1.03 请求/秒
+[STATS] GPU 负载均值: 67.16%
+[STATS] GPU 负载峰值: 100%
+[STATS] GPU 显存峰值: 1986 MB
 [STATS] 成功率: 100.00%
-[STATS] GPU 负载均值: 31.20%
-[STATS] GPU 负载峰值: 95%
-[STATS] GPU 显存峰值: 2712 MB
 ```
 
-
+![](./assets/img.png)
 
 
 

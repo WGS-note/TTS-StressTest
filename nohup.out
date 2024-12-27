@@ -1,0 +1,2961 @@
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 0.812 seconds.
+Prefix dict has been built successfully.
+2024-12-26 17:18:08,561 - INFO - Service: {'server_ip': 'localhost', 'server_port': 9991, 'output_raw': './output/1_cuda0_{}.raw', 'device': 'cuda:0'}
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 0.725 seconds.
+Prefix dict has been built successfully.
+2024-12-26 17:18:10,322 - INFO - Service: {'server_ip': 'localhost', 'server_port': 9992, 'output_raw': './output/2_cuda1_{}.raw', 'device': 'cuda:1'}
+Word segmentation module jieba initialized.
+
+
+vocab :  /home/wangguisen/projects/tts/F5-TTS/src/f5_tts/infer/examples/vocab.txt
+token :  custom
+model :  /home/wangguisen/projects/tts/F5-TTS/ckpts/F5TTS_Base/model_1200000.safetensors 
+
+Load vocos from local path /home/wangguisen/projects/tts/F5-TTS/ckpts/vocos-mel-24khz
+Warming up the model...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]Word segmentation module jieba initialized.
+
+
+vocab :  /home/wangguisen/projects/tts/F5-TTS/src/f5_tts/infer/examples/vocab.txt
+token :  custom
+model :  /home/wangguisen/projects/tts/F5-TTS/ckpts/F5TTS_Base/model_1200000.safetensors 
+
+Load vocos from local path /home/wangguisen/projects/tts/F5-TTS/ckpts/vocos-mel-24khz
+Warming up the model...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:02<00:00,  2.65s/it]100%|██████████| 1/1 [00:02<00:00,  2.65s/it]
+2024-12-26 17:18:16,134 - INFO - Server listening on localhost:9991
+100%|██████████| 1/1 [00:02<00:00,  2.68s/it]100%|██████████| 1/1 [00:02<00:00,  2.68s/it]
+2024-12-26 17:18:17,376 - INFO - Server listening on localhost:9992
+2024-12-26 17:19:02,027 - INFO - Accepted connection from ('127.0.0.1', 55788)
+2024-12-26 17:19:02,029 - INFO - Accepted connection from ('127.0.0.1', 34444)
+[DEBUG] sss2 time:  2.6590051651000977
+Warm-up completed.
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s][DEBUG] sss2 time:  2.6892480850219727
+Warm-up completed.
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:02<00:00,  2.43s/it]100%|██████████| 1/1 [00:02<00:00,  2.43s/it]
+100%|██████████| 1/1 [00:02<00:00,  2.62s/it]100%|██████████| 1/1 [00:02<00:00,  2.62s/it]
+2024-12-26 17:19:19,933 - INFO - Accepted connection from ('127.0.0.1', 41490)
+2024-12-26 17:19:19,932 - INFO - Accepted connection from ('127.0.0.1', 58840)
+2024-12-26 17:19:19,935 - INFO - Accepted connection from ('127.0.0.1', 58844)
+2024-12-26 17:19:19,935 - INFO - Accepted connection from ('127.0.0.1', 41494)
+[DEBUG] sss2 time:  2.650728702545166
+Converting audio...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s][DEBUG] sss2 time:  2.464141845703125
+Converting audio...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]
+  0%|          | 0/1 [00:00<?, ?it/s][A
+  0%|          | 0/1 [00:00<?, ?it/s][A
+100%|██████████| 1/1 [00:05<00:00,  5.41s/it][A100%|██████████| 1/1 [00:05<00:00,  5.41s/it]
+100%|██████████| 1/1 [00:05<00:00,  5.42s/it]100%|██████████| 1/1 [00:05<00:00,  5.42s/it]
+
+100%|██████████| 1/1 [00:06<00:00,  6.59s/it][A100%|██████████| 1/1 [00:06<00:00,  6.59s/it]
+100%|██████████| 1/1 [00:06<00:00,  6.61s/it]100%|██████████| 1/1 [00:06<00:00,  6.61s/it]
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 0.721 seconds.
+Prefix dict has been built successfully.
+2024-12-26 17:37:28,994 - INFO - Service: {'server_ip': 'localhost', 'server_port': 9991, 'output_raw': './output/1_cuda0_{}.raw', 'device': 'cuda:0'}
+Word segmentation module jieba initialized.
+
+
+vocab :  /home/wangguisen/projects/tts/F5-TTS/src/f5_tts/infer/examples/vocab.txt
+token :  custom
+model :  /home/wangguisen/projects/tts/F5-TTS/ckpts/F5TTS_Base/model_1200000.safetensors 
+
+Load vocos from local path /home/wangguisen/projects/tts/F5-TTS/ckpts/vocos-mel-24khz
+Warming up the model...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:02<00:00,  2.58s/it]100%|██████████| 1/1 [00:02<00:00,  2.58s/it]
+2024-12-26 17:37:35,718 - INFO - Server listening on localhost:9991
+2024-12-26 17:50:11,882 - INFO - Accepted connection from ('127.0.0.1', 56112)
+[DEBUG] sss2 time:  2.587132453918457
+Warm-up completed.
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:02<00:00,  2.36s/it]100%|██████████| 1/1 [00:02<00:00,  2.36s/it]
+2024-12-26 17:50:40,915 - INFO - Accepted connection from ('127.0.0.1', 57568)
+[DEBUG] sss2 time:  2.389822006225586
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:02<00:00,  2.35s/it]100%|██████████| 1/1 [00:02<00:00,  2.36s/it]
+2024-12-26 17:52:41,212 - INFO - Accepted connection from ('127.0.0.1', 52794)
+2024-12-26 17:52:41,213 - INFO - Accepted connection from ('127.0.0.1', 52796)
+[DEBUG] sss2 time:  2.3848683834075928
+Converting audio...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]
+  0%|          | 0/1 [00:00<?, ?it/s][A
+100%|██████████| 1/1 [00:04<00:00,  4.62s/it][A100%|██████████| 1/1 [00:04<00:00,  4.63s/it]100%|██████████| 1/1 [00:04<00:00,  4.62s/it]
+100%|██████████| 1/1 [00:04<00:00,  4.63s/it]
+2024-12-26 17:53:32,636 - INFO - Accepted connection from ('127.0.0.1', 43012)
+2024-12-26 17:53:32,643 - INFO - Accepted connection from ('127.0.0.1', 43014)
+2024-12-26 17:53:32,644 - INFO - Accepted connection from ('127.0.0.1', 43016)
+[DEBUG] sss2 time:  4.653132438659668
+[DEBUG] sss2 time:  4.659785270690918
+Converting audio...
+Converting audio...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]
+  0%|          | 0/1 [00:00<?, ?it/s][A
+
+  0%|          | 0/1 [00:00<?, ?it/s][A[A
+100%|██████████| 1/1 [00:08<00:00,  8.92s/it][A100%|██████████| 1/1 [00:08<00:00,  8.92s/it]
+100%|██████████| 1/1 [00:08<00:00,  8.93s/it]100%|██████████| 1/1 [00:08<00:00,  8.93s/it]
+
+
+100%|██████████| 1/1 [00:08<00:00,  8.92s/it][A[A100%|██████████| 1/1 [00:08<00:00,  8.93s/it]
+2024-12-26 17:54:36,154 - INFO - Accepted connection from ('127.0.0.1', 55600)
+2024-12-26 17:54:36,156 - INFO - Accepted connection from ('127.0.0.1', 55602)
+2024-12-26 17:54:36,157 - INFO - Accepted connection from ('127.0.0.1', 55604)
+2024-12-26 17:54:36,190 - INFO - Accepted connection from ('127.0.0.1', 55606)
+[DEBUG] sss2 time:  8.976726531982422
+[DEBUG] sss2 time:  8.974189519882202
+[DEBUG] sss2 time:  8.975813865661621
+Converting audio...
+Converting audio...
+Converting audio...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]
+  0%|          | 0/1 [00:00<?, ?it/s][A
+
+  0%|          | 0/1 [00:00<?, ?it/s][A[A
+
+
+  0%|          | 0/1 [00:00<?, ?it/s][A[A[A
+
+
+100%|██████████| 1/1 [00:11<00:00, 11.98s/it][A[A[A100%|██████████| 1/1 [00:11<00:00, 11.98s/it]
+100%|██████████| 1/1 [00:12<00:00, 12.01s/it]100%|██████████| 1/1 [00:12<00:00, 12.01s/it]
+
+
+100%|██████████| 1/1 [00:11<00:00, 11.99s/it][A[A100%|██████████| 1/1 [00:11<00:00, 12.00s/it]
+
+100%|██████████| 1/1 [00:12<00:00, 12.00s/it][A100%|██████████| 1/1 [00:12<00:00, 12.01s/it]
+2024-12-26 17:55:36,561 - INFO - Accepted connection from ('127.0.0.1', 43152)
+2024-12-26 17:55:36,563 - INFO - Accepted connection from ('127.0.0.1', 43154)
+2024-12-26 17:55:36,564 - INFO - Accepted connection from ('127.0.0.1', 43156)
+2024-12-26 17:55:36,598 - INFO - Accepted connection from ('127.0.0.1', 43158)
+2024-12-26 17:55:36,662 - INFO - Accepted connection from ('127.0.0.1', 43160)
+[DEBUG] sss2 time:  12.028690814971924
+[DEBUG] sss2 time:  12.059107065200806
+[DEBUG] sss2 time:  12.040297031402588
+[DEBUG] sss2 time:  12.101802587509155
+Converting audio...
+Converting audio...
+Converting audio...
+Converting audio...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]
+  0%|          | 0/1 [00:00<?, ?it/s][A
+
+  0%|          | 0/1 [00:00<?, ?it/s][A[A
+
+
+  0%|          | 0/1 [00:00<?, ?it/s][A[A[A
+
+
+
+  0%|          | 0/1 [00:00<?, ?it/s][A[A[A[A
+
+
+100%|██████████| 1/1 [00:15<00:00, 15.47s/it][A[A[A
+
+
+
+100%|██████████| 1/1 [00:15<00:00, 15.47s/it][A[A[A[A100%|██████████| 1/1 [00:15<00:00, 15.47s/it]
+100%|██████████| 1/1 [00:15<00:00, 15.47s/it]
+
+100%|██████████| 1/1 [00:15<00:00, 15.50s/it][A
+
+100%|██████████| 1/1 [00:15<00:00, 15.49s/it][A[A100%|██████████| 1/1 [00:15<00:00, 15.53s/it]
+100%|██████████| 1/1 [00:15<00:00, 15.53s/it]
+100%|██████████| 1/1 [00:15<00:00, 15.57s/it]100%|██████████| 1/1 [00:15<00:00, 15.57s/it]
+2024-12-26 17:56:37,508 - INFO - Accepted connection from ('127.0.0.1', 58124)
+2024-12-26 17:56:37,510 - INFO - Accepted connection from ('127.0.0.1', 58126)
+2024-12-26 17:56:37,511 - INFO - Accepted connection from ('127.0.0.1', 58128)
+2024-12-26 17:56:37,549 - INFO - Accepted connection from ('127.0.0.1', 58130)
+2024-12-26 17:56:37,582 - INFO - Accepted connection from ('127.0.0.1', 58132)
+2024-12-26 17:56:37,639 - INFO - Accepted connection from ('127.0.0.1', 58134)
+2024-12-26 17:56:37,701 - INFO - Accepted connection from ('127.0.0.1', 58136)
+2024-12-26 17:56:37,737 - INFO - Accepted connection from ('127.0.0.1', 58138)
+[DEBUG] sss2 time:  15.523323059082031
+[DEBUG] sss2 time:  15.580766201019287
+[DEBUG] sss2 time:  15.586549520492554
+[DEBUG] sss2 time:  15.656075954437256
+[DEBUG] sss2 time:  15.714591264724731
+Converting audio...
+Converting audio...
+Converting audio...
+Converting audio...
+Converting audio...
+Converting audio...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]
+  0%|          | 0/1 [00:00<?, ?it/s][A
+
+  0%|          | 0/1 [00:00<?, ?it/s][A[A
+
+
+  0%|          | 0/1 [00:00<?, ?it/s][A[A[A
+
+
+
+  0%|          | 0/1 [00:00<?, ?it/s][A[A[A[A
+
+
+
+
+  0%|          | 0/1 [00:00<?, ?it/s][A[A[A[A[A
+
+
+
+
+
+  0%|          | 0/1 [00:00<?, ?it/s][A[A[A[A[A[A
+
+
+
+
+
+
+  0%|          | 0/1 [00:00<?, ?it/s][A[A[A[A[A[A[A2024-12-26 17:56:38,533 - INFO - Accepted connection from ('127.0.0.1', 58140)
+2024-12-26 17:56:38,534 - INFO - Accepted connection from ('127.0.0.1', 58176)
+Converting audio...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+
+
+
+
+
+
+
+
+  0%|          | 0/1 [00:00<?, ?it/s][A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  0%|          | 0/1 [00:00<?, ?it/s][A[A[A[A[A[A[A[A[A
+
+
+
+100%|██████████| 1/1 [00:59<00:00, 59.11s/it][A[A[A[A100%|██████████| 1/1 [00:59<00:00, 59.11s/it]
+
+
+
+
+
+
+
+
+
+100%|██████████| 1/1 [00:59<00:00, 59.03s/it][A[A[A[A[A[A[A[A[A100%|██████████| 1/1 [00:59<00:00, 59.03s/it]
+
+
+100%|██████████| 1/1 [00:59<00:00, 59.41s/it][A[A100%|██████████| 1/1 [00:59<00:00, 59.41s/it]
+
+
+
+
+
+
+100%|██████████| 1/1 [00:59<00:00, 59.40s/it][A[A[A[A[A[A100%|██████████| 1/1 [00:59<00:00, 59.40s/it]
+
+
+
+
+
+
+
+
+100%|██████████| 1/1 [00:59<00:00, 59.09s/it][A[A[A[A[A[A[A[A100%|██████████| 1/1 [00:59<00:00, 59.10s/it]
+
+100%|██████████| 1/1 [00:59<00:00, 59.51s/it][A100%|██████████| 1/1 [00:59<00:00, 59.51s/it]
+
+
+
+
+
+
+
+100%|██████████| 1/1 [00:59<00:00, 59.47s/it][A[A[A[A[A[A[A100%|██████████| 1/1 [00:59<00:00, 59.47s/it]
+
+
+
+100%|██████████| 1/1 [00:59<00:00, 59.59s/it][A[A[A100%|██████████| 1/1 [00:59<00:00, 59.59s/it]
+100%|██████████| 1/1 [00:59<00:00, 59.64s/it]100%|██████████| 1/1 [00:59<00:00, 59.64s/it]
+
+
+
+
+
+100%|██████████| 1/1 [00:59<00:00, 59.61s/it][A[A[A[A[A100%|██████████| 1/1 [00:59<00:00, 59.61s/it]
+2024-12-26 17:58:54,240 - INFO - Accepted connection from ('127.0.0.1', 41168)
+2024-12-26 17:58:54,242 - INFO - Accepted connection from ('127.0.0.1', 41170)
+2024-12-26 17:58:54,243 - INFO - Accepted connection from ('127.0.0.1', 41172)
+2024-12-26 17:58:54,287 - INFO - Accepted connection from ('127.0.0.1', 41174)
+2024-12-26 17:58:54,335 - INFO - Accepted connection from ('127.0.0.1', 41176)
+2024-12-26 17:58:54,376 - INFO - Accepted connection from ('127.0.0.1', 41178)
+2024-12-26 17:58:54,420 - INFO - Accepted connection from ('127.0.0.1', 41180)
+2024-12-26 17:58:54,474 - INFO - Accepted connection from ('127.0.0.1', 41182)
+[DEBUG] sss2 time:  59.16835141181946
+[DEBUG] sss2 time:  59.06110715866089
+[DEBUG] sss2 time:  59.59025835990906
+[DEBUG] sss2 time:  59.513548135757446
+[DEBUG] sss2 time:  59.145592212677
+[DEBUG] sss2 time:  60.07346749305725
+[DEBUG] sss2 time:  59.556968212127686
+[DEBUG] sss2 time:  59.806453227996826
+[DEBUG] sss2 time:  60.23143005371094
+[DEBUG] sss2 time:  59.68202209472656
+Converting audio...
+Converting audio...
+Converting audio...
+Converting audio...
+Converting audio...
+Converting audio...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]
+  0%|          | 0/1 [00:00<?, ?it/s][A
+
+
+  0%|          | 0/1 [00:00<?, ?it/s][A[A[A
+
+  0%|          | 0/1 [00:00<?, ?it/s][A[A
+
+
+
+  0%|          | 0/1 [00:00<?, ?it/s][A[A[A[A
+
+
+
+
+  0%|          | 0/1 [00:00<?, ?it/s][A[A[A[A[A
+
+
+
+
+
+  0%|          | 0/1 [00:00<?, ?it/s][A[A[A[A[A[A
+
+
+
+
+
+
+  0%|          | 0/1 [00:00<?, ?it/s][A[A[A[A[A[A[A2024-12-26 17:58:55,269 - INFO - Accepted connection from ('127.0.0.1', 41184)
+2024-12-26 17:58:55,270 - INFO - Accepted connection from ('127.0.0.1', 41216)
+2024-12-26 17:58:55,271 - INFO - Accepted connection from ('127.0.0.1', 41218)
+2024-12-26 17:58:55,278 - INFO - Accepted connection from ('127.0.0.1', 41220)
+Converting audio...
+Converting audio...
+Converting audio...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+
+
+
+
+
+
+
+
+  0%|          | 0/1 [00:00<?, ?it/s][A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+  0%|          | 0/1 [00:00<?, ?it/s][A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+  0%|          | 0/1 [00:00<?, ?it/s][A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+  0%|          | 0/1 [00:00<?, ?it/s][A[A[A[A[A[A[A[A[A[A[A
+
+100%|██████████| 1/1 [01:25<00:00, 85.24s/it][A[A100%|██████████| 1/1 [01:25<00:00, 85.24s/it]
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 1/1 [01:25<00:00, 85.06s/it][A[A[A[A[A[A[A[A[A[A[A100%|██████████| 1/1 [01:25<00:00, 85.06s/it]
+100%|██████████| 1/1 [01:26<00:00, 86.16s/it]100%|██████████| 1/1 [01:26<00:00, 86.16s/it]
+
+
+
+
+
+
+
+
+100%|██████████| 1/1 [01:25<00:00, 85.71s/it][A[A[A[A[A[A[A[A100%|██████████| 1/1 [01:25<00:00, 85.71s/it]
+
+
+
+100%|██████████| 1/1 [01:26<00:00, 86.38s/it][A[A[A100%|██████████| 1/1 [01:26<00:00, 86.38s/it]
+
+100%|██████████| 1/1 [01:26<00:00, 86.45s/it][A100%|██████████| 1/1 [01:26<00:00, 86.45s/it]
+
+
+
+
+
+
+
+100%|██████████| 1/1 [01:26<00:00, 86.54s/it][A[A[A[A[A[A[A100%|██████████| 1/1 [01:26<00:00, 86.54s/it]
+
+
+
+
+
+
+100%|██████████| 1/1 [01:26<00:00, 86.59s/it][A[A[A[A[A[A100%|██████████| 1/1 [01:26<00:00, 86.59s/it]
+
+
+
+
+100%|██████████| 1/1 [01:26<00:00, 86.67s/it][A[A[A[A100%|██████████| 1/1 [01:26<00:00, 86.67s/it]
+
+
+
+
+
+100%|██████████| 1/1 [01:26<00:00, 86.69s/it][A[A[A[A[A100%|██████████| 1/1 [01:26<00:00, 86.69s/it]
+
+
+
+
+
+
+
+
+
+100%|██████████| 1/1 [01:26<00:00, 86.13s/it][A[A[A[A[A[A[A[A[A100%|██████████| 1/1 [01:26<00:00, 86.13s/it]
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 1/1 [01:26<00:00, 86.12s/it][A[A[A[A[A[A[A[A[A[A100%|██████████| 1/1 [01:26<00:00, 86.12s/it]
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 0.791 seconds.
+Prefix dict has been built successfully.
+2024-12-27 09:13:43,743 - INFO - Service: {'server_ip': 'localhost', 'server_port': 9991, 'output_raw': './output/1_cuda0_{}.raw', 'device': 'cuda:0'}
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 0.734 seconds.
+Prefix dict has been built successfully.
+2024-12-27 09:13:45,671 - INFO - Service: {'server_ip': 'localhost', 'server_port': 9992, 'output_raw': './output/2_cuda1_{}.raw', 'device': 'cuda:1'}
+Word segmentation module jieba initialized.
+
+
+vocab :  /home/wangguisen/projects/tts/F5-TTS/src/f5_tts/infer/examples/vocab.txt
+token :  custom
+model :  /home/wangguisen/projects/tts/F5-TTS/ckpts/F5TTS_Base/model_1200000.safetensors 
+
+Load vocos from local path /home/wangguisen/projects/tts/F5-TTS/ckpts/vocos-mel-24khz
+Warming up the model...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]Word segmentation module jieba initialized.
+
+
+vocab :  /home/wangguisen/projects/tts/F5-TTS/src/f5_tts/infer/examples/vocab.txt
+token :  custom
+model :  /home/wangguisen/projects/tts/F5-TTS/ckpts/F5TTS_Base/model_1200000.safetensors 
+
+Load vocos from local path /home/wangguisen/projects/tts/F5-TTS/ckpts/vocos-mel-24khz
+Warming up the model...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:02<00:00,  2.67s/it]100%|██████████| 1/1 [00:02<00:00,  2.67s/it]
+2024-12-27 09:13:51,466 - INFO - Server listening on localhost:9991
+100%|██████████| 1/1 [00:03<00:00,  3.18s/it]100%|██████████| 1/1 [00:03<00:00,  3.18s/it]
+2024-12-27 09:13:53,065 - INFO - Server listening on localhost:9992
+2024-12-27 09:14:36,642 - INFO - Accepted connection from ('127.0.0.1', 36876)
+[DEBUG] sss2 time:  2.683431386947632
+Warm-up completed.
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:02<00:00,  2.42s/it]100%|██████████| 1/1 [00:02<00:00,  2.42s/it]
+2024-12-27 09:18:37,079 - INFO - Accepted connection from ('127.0.0.1', 50780)
+2024-12-27 09:18:37,082 - INFO - Accepted connection from ('127.0.0.1', 34974)
+[DEBUG] sss2 time:  2.449010133743286
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s][DEBUG] sss2 time:  3.188588857650757
+Warm-up completed.
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:02<00:00,  2.35s/it]100%|██████████| 1/1 [00:02<00:00,  2.35s/it]
+100%|██████████| 1/1 [00:02<00:00,  2.41s/it]100%|██████████| 1/1 [00:02<00:00,  2.41s/it]
+2024-12-27 09:20:42,302 - INFO - Accepted connection from ('127.0.0.1', 52206)
+2024-12-27 09:20:42,303 - INFO - Accepted connection from ('127.0.0.1', 52210)
+2024-12-27 09:20:42,303 - INFO - Accepted connection from ('127.0.0.1', 34092)
+[DEBUG] sss2 time:  2.44716215133667
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s][DEBUG] sss2 time:  2.3847169876098633
+Converting audio...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]
+  0%|          | 0/1 [00:00<?, ?it/s][A100%|██████████| 1/1 [00:02<00:00,  2.34s/it]100%|██████████| 1/1 [00:02<00:00,  2.34s/it]
+
+100%|██████████| 1/1 [00:06<00:00,  6.59s/it][A100%|██████████| 1/1 [00:06<00:00,  6.59s/it]
+100%|██████████| 1/1 [00:06<00:00,  6.61s/it]100%|██████████| 1/1 [00:06<00:00,  6.61s/it]
+2024-12-27 09:22:23,882 - INFO - Accepted connection from ('127.0.0.1', 45170)
+2024-12-27 09:22:23,881 - INFO - Accepted connection from ('127.0.0.1', 55798)
+2024-12-27 09:22:23,883 - INFO - Accepted connection from ('127.0.0.1', 45174)
+2024-12-27 09:22:23,884 - INFO - Accepted connection from ('127.0.0.1', 55804)
+[DEBUG] sss2 time:  6.623658657073975
+[DEBUG] sss2 time:  6.650310277938843
+Converting audio...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s][DEBUG] sss2 time:  2.3737142086029053
+Converting audio...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+  0%|          | 0/1 [00:00<?, ?it/s][A  0%|          | 0/1 [00:00<?, ?it/s][A100%|██████████| 1/1 [00:05<00:00,  5.38s/it]100%|██████████| 1/1 [00:05<00:00,  5.38s/it]
+
+100%|██████████| 1/1 [00:05<00:00,  5.37s/it][A100%|██████████| 1/1 [00:05<00:00,  5.37s/it]
+
+100%|██████████| 1/1 [00:06<00:00,  6.60s/it][A100%|██████████| 1/1 [00:06<00:00,  6.60s/it]
+100%|██████████| 1/1 [00:06<00:00,  6.61s/it]100%|██████████| 1/1 [00:06<00:00,  6.61s/it]
+2024-12-27 09:23:17,074 - INFO - Accepted connection from ('127.0.0.1', 52598)
+2024-12-27 09:23:17,076 - INFO - Accepted connection from ('127.0.0.1', 56396)
+2024-12-27 09:23:17,077 - INFO - Accepted connection from ('127.0.0.1', 52602)
+2024-12-27 09:23:17,078 - INFO - Accepted connection from ('127.0.0.1', 56400)
+2024-12-27 09:23:17,078 - INFO - Accepted connection from ('127.0.0.1', 52606)
+[DEBUG] sss2 time:  5.438906669616699
+[DEBUG] sss2 time:  5.4129252433776855
+Converting audio...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]
+  0%|          | 0/1 [00:00<?, ?it/s][A[DEBUG] sss2 time:  6.641620397567749
+[DEBUG] sss2 time:  6.640148401260376
+Converting audio...
+Converting audio...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]
+  0%|          | 0/1 [00:00<?, ?it/s][A
+
+  0%|          | 0/1 [00:00<?, ?it/s][A[A100%|██████████| 1/1 [00:05<00:00,  5.39s/it]100%|██████████| 1/1 [00:05<00:00,  5.39s/it]
+
+100%|██████████| 1/1 [00:05<00:00,  5.38s/it][A100%|██████████| 1/1 [00:05<00:00,  5.38s/it]
+100%|██████████| 1/1 [00:09<00:00,  9.53s/it]
+
+100%|██████████| 1/1 [00:09<00:00,  9.51s/it][A[A100%|██████████| 1/1 [00:09<00:00,  9.54s/it]
+100%|██████████| 1/1 [00:09<00:00,  9.52s/it]
+
+100%|██████████| 1/1 [00:09<00:00,  9.53s/it][A100%|██████████| 1/1 [00:09<00:00,  9.53s/it]
+2024-12-27 09:24:07,908 - INFO - Accepted connection from ('127.0.0.1', 59066)
+2024-12-27 09:24:07,910 - INFO - Accepted connection from ('127.0.0.1', 40032)
+2024-12-27 09:24:07,911 - INFO - Accepted connection from ('127.0.0.1', 59070)
+2024-12-27 09:24:07,912 - INFO - Accepted connection from ('127.0.0.1', 40036)
+2024-12-27 09:24:07,912 - INFO - Accepted connection from ('127.0.0.1', 59074)
+2024-12-27 09:24:07,913 - INFO - Accepted connection from ('127.0.0.1', 40040)
+2024-12-27 09:24:07,952 - INFO - Accepted connection from ('127.0.0.1', 40044)
+2024-12-27 09:24:07,940 - INFO - Accepted connection from ('127.0.0.1', 59078)
+2024-12-27 09:24:07,973 - INFO - Accepted connection from ('127.0.0.1', 40048)
+2024-12-27 09:24:08,009 - INFO - Accepted connection from ('127.0.0.1', 59082)
+[DEBUG] sss2 time:  9.622892618179321
+[DEBUG] sss2 time:  9.55715823173523
+[DEBUG] sss2 time:  9.58578109741211
+Converting audio...
+Converting audio...
+Converting audio...
+Converting audio...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]
+  0%|          | 0/1 [00:00<?, ?it/s][A
+
+  0%|          | 0/1 [00:00<?, ?it/s][A[A[DEBUG] sss2 time:  5.437519550323486
+[DEBUG] sss2 time:  5.417581558227539
+Converting audio...
+Converting audio...
+Converting audio...
+Converting audio...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+
+
+  0%|          | 0/1 [00:00<?, ?it/s][A  0%|          | 0/1 [00:00<?, ?it/s][A[A[A
+
+
+
+  0%|          | 0/1 [00:00<?, ?it/s][A[A[A[A
+
+  0%|          | 0/1 [00:00<?, ?it/s][A[A
+
+
+  0%|          | 0/1 [00:00<?, ?it/s][A[A[A
+
+
+
+  0%|          | 0/1 [00:00<?, ?it/s][A[A[A[A
+
+
+
+100%|██████████| 1/1 [00:13<00:00, 13.60s/it][A[A[A[A100%|██████████| 1/1 [00:13<00:00, 13.60s/it]
+
+
+100%|██████████| 1/1 [00:13<00:00, 13.62s/it][A[A100%|██████████| 1/1 [00:13<00:00, 13.62s/it]
+100%|██████████| 1/1 [00:13<00:00, 13.94s/it]100%|██████████| 1/1 [00:13<00:00, 13.94s/it]
+
+
+
+100%|██████████| 1/1 [00:13<00:00, 13.92s/it][A[A[A100%|██████████| 1/1 [00:13<00:00, 13.92s/it]
+
+100%|██████████| 1/1 [00:13<00:00, 13.96s/it][A100%|██████████| 1/1 [00:13<00:00, 13.96s/it]
+
+
+
+
+100%|██████████| 1/1 [00:14<00:00, 14.05s/it][A[A[A[A100%|██████████| 1/1 [00:14<00:00, 14.05s/it]
+
+
+100%|██████████| 1/1 [00:14<00:00, 14.08s/it][A[A100%|██████████| 1/1 [00:14<00:00, 14.08s/it]
+100%|██████████| 1/1 [00:14<00:00, 14.10s/it]100%|██████████| 1/1 [00:14<00:00, 14.10s/it]
+
+
+
+100%|██████████| 1/1 [00:14<00:00, 14.09s/it][A[A[A100%|██████████| 1/1 [00:14<00:00, 14.09s/it]
+
+100%|██████████| 1/1 [00:14<00:00, 14.19s/it][A100%|██████████| 1/1 [00:14<00:00, 14.19s/it]
+2024-12-27 09:24:59,730 - INFO - Accepted connection from ('127.0.0.1', 43742)
+2024-12-27 09:24:59,731 - INFO - Accepted connection from ('127.0.0.1', 43932)
+2024-12-27 09:24:59,732 - INFO - Accepted connection from ('127.0.0.1', 43746)
+2024-12-27 09:24:59,733 - INFO - Accepted connection from ('127.0.0.1', 43936)
+2024-12-27 09:24:59,734 - INFO - Accepted connection from ('127.0.0.1', 43940)
+2024-12-27 09:24:59,733 - INFO - Accepted connection from ('127.0.0.1', 43750)
+2024-12-27 09:24:59,752 - INFO - Accepted connection from ('127.0.0.1', 43944)
+2024-12-27 09:24:59,781 - INFO - Accepted connection from ('127.0.0.1', 43754)
+2024-12-27 09:24:59,816 - INFO - Accepted connection from ('127.0.0.1', 43948)
+2024-12-27 09:24:59,855 - INFO - Accepted connection from ('127.0.0.1', 43758)
+2024-12-27 09:24:59,871 - INFO - Accepted connection from ('127.0.0.1', 43952)
+2024-12-27 09:24:59,871 - INFO - Accepted connection from ('127.0.0.1', 43762)
+[DEBUG] sss2 time:  13.658245325088501
+[DEBUG] sss2 time:  13.659817457199097
+[DEBUG] sss2 time:  14.086479425430298
+[DEBUG] sss2 time:  14.030193328857422
+[DEBUG] sss2 time:  14.026067733764648
+Converting audio...
+Converting audio...
+Converting audio...
+Converting audio...
+Converting audio...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]
+  0%|          | 0/1 [00:00<?, ?it/s][A
+
+  0%|          | 0/1 [00:00<?, ?it/s][A[A
+
+
+  0%|          | 0/1 [00:00<?, ?it/s][A[A[A
+
+
+
+  0%|          | 0/1 [00:00<?, ?it/s][A[A[A[A
+
+
+
+
+  0%|          | 0/1 [00:00<?, ?it/s][A[A[A[A[A[DEBUG] sss2 time:  14.142784833908081
+[DEBUG] sss2 time:  14.150949001312256
+[DEBUG] sss2 time:  14.35575008392334
+[DEBUG] sss2 time:  14.336959600448608
+[DEBUG] sss2 time:  14.227166175842285
+Converting audio...
+Converting audio...
+Converting audio...
+Converting audio...
+Converting audio...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]
+  0%|          | 0/1 [00:00<?, ?it/s][A
+
+  0%|          | 0/1 [00:00<?, ?it/s][A[A
+
+
+
+  0%|          | 0/1 [00:00<?, ?it/s][A[A[A[A
+
+
+  0%|          | 0/1 [00:00<?, ?it/s][A[A[A
+
+
+
+
+  0%|          | 0/1 [00:00<?, ?it/s][A[A[A[A[A
+
+100%|██████████| 1/1 [00:19<00:00, 19.86s/it][A[A100%|██████████| 1/1 [00:19<00:00, 19.86s/it]
+100%|██████████| 1/1 [00:19<00:00, 19.90s/it]100%|██████████| 1/1 [00:19<00:00, 19.90s/it]
+
+
+
+
+100%|██████████| 1/1 [00:19<00:00, 19.94s/it][A[A[A[A100%|██████████| 1/1 [00:19<00:00, 19.94s/it]
+
+
+
+
+
+100%|██████████| 1/1 [00:19<00:00, 19.95s/it][A[A[A[A[A100%|██████████| 1/1 [00:19<00:00, 19.95s/it]
+
+100%|██████████| 1/1 [00:20<00:00, 20.06s/it][A100%|██████████| 1/1 [00:20<00:00, 20.06s/it]
+
+
+
+100%|██████████| 1/1 [00:20<00:00, 20.06s/it][A[A[A100%|██████████| 1/1 [00:20<00:00, 20.06s/it]
+
+
+
+100%|██████████| 1/1 [00:20<00:00, 20.05s/it][A[A[A100%|██████████| 1/1 [00:20<00:00, 20.05s/it]
+
+
+100%|██████████| 1/1 [00:20<00:00, 20.15s/it][A[A100%|██████████| 1/1 [00:20<00:00, 20.15s/it]
+
+100%|██████████| 1/1 [00:20<00:00, 20.16s/it][A100%|██████████| 1/1 [00:20<00:00, 20.16s/it]
+
+
+
+
+100%|██████████| 1/1 [00:20<00:00, 20.18s/it][A[A[A[A100%|██████████| 1/1 [00:20<00:00, 20.18s/it]
+
+
+
+
+
+100%|██████████| 1/1 [00:20<00:00, 20.21s/it][A[A[A[A[A100%|██████████| 1/1 [00:20<00:00, 20.21s/it]
+100%|██████████| 1/1 [00:20<00:00, 20.32s/it]100%|██████████| 1/1 [00:20<00:00, 20.32s/it]
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 0.836 seconds.
+Prefix dict has been built successfully.
+2024-12-27 09:27:24,298 - INFO - Service: {'server_ip': 'localhost', 'server_port': 9991, 'output_raw': './output/1_cuda0_{}.raw', 'device': 'cuda:0'}
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 0.786 seconds.
+Prefix dict has been built successfully.
+2024-12-27 09:27:26,112 - INFO - Service: {'server_ip': 'localhost', 'server_port': 9992, 'output_raw': './output/2_cuda0_{}.raw', 'device': 'cuda:0'}
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 0.741 seconds.
+Prefix dict has been built successfully.
+2024-12-27 09:27:27,984 - INFO - Service: {'server_ip': 'localhost', 'server_port': 9993, 'output_raw': './output/3_cuda0_{}.raw', 'device': 'cuda:0'}
+Word segmentation module jieba initialized.
+
+
+vocab :  /home/wangguisen/projects/tts/F5-TTS/src/f5_tts/infer/examples/vocab.txt
+token :  custom
+model :  /home/wangguisen/projects/tts/F5-TTS/ckpts/F5TTS_Base/model_1200000.safetensors 
+
+Load vocos from local path /home/wangguisen/projects/tts/F5-TTS/ckpts/vocos-mel-24khz
+Warming up the model...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]Word segmentation module jieba initialized.
+
+
+vocab :  /home/wangguisen/projects/tts/F5-TTS/src/f5_tts/infer/examples/vocab.txt
+token :  custom
+model :  /home/wangguisen/projects/tts/F5-TTS/ckpts/F5TTS_Base/model_1200000.safetensors 
+
+Load vocos from local path /home/wangguisen/projects/tts/F5-TTS/ckpts/vocos-mel-24khz
+Warming up the model...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:03<00:00,  3.61s/it]100%|██████████| 1/1 [00:03<00:00,  3.61s/it]
+2024-12-27 09:27:32,247 - INFO - Server listening on localhost:9991
+Word segmentation module jieba initialized.
+
+
+vocab :  /home/wangguisen/projects/tts/F5-TTS/src/f5_tts/infer/examples/vocab.txt
+token :  custom
+model :  /home/wangguisen/projects/tts/F5-TTS/ckpts/F5TTS_Base/model_1200000.safetensors 
+
+Load vocos from local path /home/wangguisen/projects/tts/F5-TTS/ckpts/vocos-mel-24khz
+Warming up the model...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:03<00:00,  3.40s/it]100%|██████████| 1/1 [00:03<00:00,  3.40s/it]
+2024-12-27 09:27:33,915 - INFO - Server listening on localhost:9992
+100%|██████████| 1/1 [00:02<00:00,  2.81s/it]100%|██████████| 1/1 [00:02<00:00,  2.81s/it]
+2024-12-27 09:27:35,787 - INFO - Server listening on localhost:9993
+2024-12-27 09:30:01,058 - INFO - Accepted connection from ('127.0.0.1', 59274)
+[DEBUG] sss2 time:  3.6242008209228516
+Warm-up completed.
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:02<00:00,  2.35s/it]100%|██████████| 1/1 [00:02<00:00,  2.35s/it]
+2024-12-27 09:30:41,188 - INFO - Accepted connection from ('127.0.0.1', 49414)
+2024-12-27 09:30:41,189 - INFO - Accepted connection from ('127.0.0.1', 57686)
+[DEBUG] sss2 time:  2.374821186065674
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s][DEBUG] sss2 time:  3.4072415828704834
+Warm-up completed.
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:04<00:00,  4.81s/it]100%|██████████| 1/1 [00:04<00:00,  4.81s/it]
+100%|██████████| 1/1 [00:04<00:00,  4.81s/it]100%|██████████| 1/1 [00:04<00:00,  4.82s/it]
+2024-12-27 09:31:21,741 - INFO - Accepted connection from ('127.0.0.1', 33928)
+2024-12-27 09:31:21,742 - INFO - Accepted connection from ('127.0.0.1', 36314)
+2024-12-27 09:31:21,742 - INFO - Accepted connection from ('127.0.0.1', 33148)
+[DEBUG] sss2 time:  2.820294141769409
+Warm-up completed.
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s][DEBUG] sss2 time:  4.842648029327393
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s][DEBUG] sss2 time:  4.839347839355469
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:07<00:00,  7.35s/it]100%|██████████| 1/1 [00:07<00:00,  7.35s/it]
+100%|██████████| 1/1 [00:07<00:00,  7.36s/it]100%|██████████| 1/1 [00:07<00:00,  7.36s/it]
+100%|██████████| 1/1 [00:09<00:00,  9.24s/it]100%|██████████| 1/1 [00:09<00:00,  9.24s/it]
+2024-12-27 09:32:09,514 - INFO - Accepted connection from ('127.0.0.1', 45164)
+2024-12-27 09:32:09,516 - INFO - Accepted connection from ('127.0.0.1', 53342)
+2024-12-27 09:32:09,516 - INFO - Accepted connection from ('127.0.0.1', 37124)
+2024-12-27 09:32:09,516 - INFO - Accepted connection from ('127.0.0.1', 45170)
+[DEBUG] sss2 time:  7.400071382522583
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s][DEBUG] sss2 time:  9.278960227966309
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s][DEBUG] sss2 time:  7.406417608261108
+Converting audio...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]
+  0%|          | 0/1 [00:00<?, ?it/s][A100%|██████████| 1/1 [00:07<00:00,  7.43s/it]100%|██████████| 1/1 [00:07<00:00,  7.43s/it]
+100%|██████████| 1/1 [00:11<00:00, 11.49s/it]100%|██████████| 1/1 [00:11<00:00, 11.49s/it]
+
+100%|██████████| 1/1 [00:12<00:00, 12.67s/it][A100%|██████████| 1/1 [00:12<00:00, 12.67s/it]
+100%|██████████| 1/1 [00:12<00:00, 12.68s/it]100%|██████████| 1/1 [00:12<00:00, 12.69s/it]
+2024-12-27 09:33:03,304 - INFO - Accepted connection from ('127.0.0.1', 50028)
+2024-12-27 09:33:03,306 - INFO - Accepted connection from ('127.0.0.1', 60972)
+2024-12-27 09:33:03,306 - INFO - Accepted connection from ('127.0.0.1', 46250)
+2024-12-27 09:33:03,307 - INFO - Accepted connection from ('127.0.0.1', 50034)
+2024-12-27 09:33:03,308 - INFO - Accepted connection from ('127.0.0.1', 60978)
+[DEBUG] sss2 time:  11.512297630310059
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s][DEBUG] sss2 time:  12.691880941390991
+[DEBUG] sss2 time:  12.718919277191162
+Converting audio...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]
+  0%|          | 0/1 [00:00<?, ?it/s][A[DEBUG] sss2 time:  7.454999923706055
+Converting audio...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]
+  0%|          | 0/1 [00:00<?, ?it/s][A100%|██████████| 1/1 [00:13<00:00, 13.38s/it]100%|██████████| 1/1 [00:13<00:00, 13.38s/it]
+100%|██████████| 1/1 [00:15<00:00, 15.77s/it]100%|██████████| 1/1 [00:15<00:00, 15.78s/it]
+
+100%|██████████| 1/1 [00:15<00:00, 15.78s/it][A100%|██████████| 1/1 [00:15<00:00, 15.78s/it]
+100%|██████████| 1/1 [00:15<00:00, 15.94s/it]100%|██████████| 1/1 [00:15<00:00, 15.94s/it]
+
+100%|██████████| 1/1 [00:15<00:00, 15.94s/it][A100%|██████████| 1/1 [00:15<00:00, 15.94s/it]
+2024-12-27 09:33:57,468 - INFO - Accepted connection from ('127.0.0.1', 51208)
+2024-12-27 09:33:57,469 - INFO - Accepted connection from ('127.0.0.1', 34610)
+2024-12-27 09:33:57,470 - INFO - Accepted connection from ('127.0.0.1', 41136)
+2024-12-27 09:33:57,470 - INFO - Accepted connection from ('127.0.0.1', 51214)
+2024-12-27 09:33:57,471 - INFO - Accepted connection from ('127.0.0.1', 51220)
+2024-12-27 09:33:57,471 - INFO - Accepted connection from ('127.0.0.1', 34616)
+2024-12-27 09:33:57,472 - INFO - Accepted connection from ('127.0.0.1', 41142)
+2024-12-27 09:33:57,473 - INFO - Accepted connection from ('127.0.0.1', 41148)
+2024-12-27 09:33:57,489 - INFO - Accepted connection from ('127.0.0.1', 51226)
+2024-12-27 09:33:57,472 - INFO - Accepted connection from ('127.0.0.1', 34622)
+[DEBUG] sss2 time:  13.40644907951355
+Converting audio...
+Converting audio...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s][DEBUG] sss2 time:  15.79009747505188
+[DEBUG] sss2 time:  15.803227186203003
+Converting audio...
+Converting audio...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+  0%|          | 0/1 [00:00<?, ?it/s][A  0%|          | 0/1 [00:00<?, ?it/s][A
+
+  0%|          | 0/1 [00:00<?, ?it/s][A[A
+
+  0%|          | 0/1 [00:00<?, ?it/s][A[A[DEBUG] sss2 time:  15.967750072479248
+[DEBUG] sss2 time:  15.957510471343994
+Converting audio...
+Converting audio...
+Converting audio...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]
+  0%|          | 0/1 [00:00<?, ?it/s][A
+
+  0%|          | 0/1 [00:00<?, ?it/s][A[A
+
+
+  0%|          | 0/1 [00:00<?, ?it/s][A[A[A
+100%|██████████| 1/1 [00:27<00:00, 27.65s/it][A100%|██████████| 1/1 [00:27<00:00, 27.65s/it]
+100%|██████████| 1/1 [00:27<00:00, 27.70s/it]100%|██████████| 1/1 [00:27<00:00, 27.70s/it]
+
+
+100%|██████████| 1/1 [00:27<00:00, 27.68s/it][A[A100%|██████████| 1/1 [00:27<00:00, 27.69s/it]
+
+
+100%|██████████| 1/1 [00:28<00:00, 28.85s/it][A[A100%|██████████| 1/1 [00:28<00:00, 28.85s/it]
+
+100%|██████████| 1/1 [00:28<00:00, 28.86s/it][A100%|██████████| 1/1 [00:28<00:00, 28.87s/it]
+100%|██████████| 1/1 [00:28<00:00, 28.90s/it]100%|██████████| 1/1 [00:28<00:00, 28.90s/it]
+
+100%|██████████| 1/1 [00:28<00:00, 28.96s/it][A100%|██████████| 1/1 [00:28<00:00, 28.96s/it]
+
+
+100%|██████████| 1/1 [00:28<00:00, 28.97s/it][A[A100%|██████████| 1/1 [00:28<00:00, 28.97s/it]
+100%|██████████| 1/1 [00:28<00:00, 28.99s/it]100%|██████████| 1/1 [00:28<00:00, 28.99s/it]
+
+
+
+100%|██████████| 1/1 [00:28<00:00, 28.98s/it][A[A[A100%|██████████| 1/1 [00:28<00:00, 28.98s/it]
+2024-12-27 09:35:02,713 - INFO - Accepted connection from ('127.0.0.1', 33234)
+2024-12-27 09:35:02,715 - INFO - Accepted connection from ('127.0.0.1', 33240)
+2024-12-27 09:35:02,714 - INFO - Accepted connection from ('127.0.0.1', 45926)
+2024-12-27 09:35:02,715 - INFO - Accepted connection from ('127.0.0.1', 56202)
+2024-12-27 09:35:02,716 - INFO - Accepted connection from ('127.0.0.1', 33246)
+2024-12-27 09:35:02,716 - INFO - Accepted connection from ('127.0.0.1', 45932)
+2024-12-27 09:35:02,717 - INFO - Accepted connection from ('127.0.0.1', 56208)
+2024-12-27 09:35:02,718 - INFO - Accepted connection from ('127.0.0.1', 56214)
+2024-12-27 09:35:02,717 - INFO - Accepted connection from ('127.0.0.1', 45938)
+2024-12-27 09:35:02,733 - INFO - Accepted connection from ('127.0.0.1', 33252)
+2024-12-27 09:35:02,755 - INFO - Accepted connection from ('127.0.0.1', 45944)
+2024-12-27 09:35:02,740 - INFO - Accepted connection from ('127.0.0.1', 56220)
+[DEBUG] sss2 time:  28.87789034843445
+[DEBUG] sss2 time:  28.903521060943604
+[DEBUG] sss2 time:  28.916395902633667
+Converting audio...
+Converting audio...
+Converting audio...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s][DEBUG] sss2 time:  29.050949096679688
+[DEBUG] sss2 time:  29.043991088867188
+[DEBUG] sss2 time:  29.10051131248474
+[DEBUG] sss2 time:  29.044140815734863
+Converting audio...
+Converting audio...
+Converting audio...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+[DEBUG] sss2 time:  27.70359778404236
+[DEBUG] sss2 time:  27.764310121536255
+[DEBUG] sss2 time:  27.71786618232727
+Converting audio...
+Converting audio...
+Converting audio...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]  0%|          | 0/1 [00:00<?, ?it/s][A[A
+  0%|          | 0/1 [00:00<?, ?it/s][A
+  0%|          | 0/1 [00:00<?, ?it/s][A
+  0%|          | 0/1 [00:00<?, ?it/s][A
+
+
+  0%|          | 0/1 [00:00<?, ?it/s][A[A[A
+
+
+
+  0%|          | 0/1 [00:00<?, ?it/s][A[A  0%|          | 0/1 [00:00<?, ?it/s][A[A
+
+
+  0%|          | 0/1 [00:00<?, ?it/s][A[A[A
+
+
+  0%|          | 0/1 [00:00<?, ?it/s][A[A[A
+
+100%|██████████| 1/1 [00:30<00:00, 30.36s/it][A[A100%|██████████| 1/1 [00:30<00:00, 30.36s/it]
+100%|██████████| 1/1 [00:30<00:00, 30.41s/it]100%|██████████| 1/1 [00:30<00:00, 30.41s/it]
+
+
+
+100%|██████████| 1/1 [00:30<00:00, 30.41s/it][A[A[A100%|██████████| 1/1 [00:30<00:00, 30.41s/it]
+
+100%|██████████| 1/1 [00:30<00:00, 30.44s/it][A100%|██████████| 1/1 [00:30<00:00, 30.44s/it]
+
+
+100%|██████████| 1/1 [00:34<00:00, 34.92s/it][A[A100%|██████████| 1/1 [00:34<00:00, 34.92s/it]
+
+
+
+100%|██████████| 1/1 [00:34<00:00, 34.93s/it][A[A[A100%|██████████| 1/1 [00:34<00:00, 34.93s/it]
+
+100%|██████████| 1/1 [00:34<00:00, 34.95s/it][A100%|██████████| 1/1 [00:34<00:00, 34.95s/it]
+100%|██████████| 1/1 [00:34<00:00, 34.97s/it]100%|██████████| 1/1 [00:34<00:00, 34.97s/it]
+100%|██████████| 1/1 [00:34<00:00, 34.99s/it]100%|██████████| 1/1 [00:34<00:00, 34.99s/it]
+
+
+100%|██████████| 1/1 [00:34<00:00, 35.00s/it][A[A100%|██████████| 1/1 [00:34<00:00, 35.00s/it]
+
+
+
+100%|██████████| 1/1 [00:34<00:00, 34.98s/it][A[A[A100%|██████████| 1/1 [00:34<00:00, 34.99s/it]
+
+100%|██████████| 1/1 [00:35<00:00, 35.02s/it][A100%|██████████| 1/1 [00:35<00:00, 35.02s/it]
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 0.808 seconds.
+Prefix dict has been built successfully.
+2024-12-27 09:36:45,380 - INFO - Service: {'server_ip': 'localhost', 'server_port': 9991, 'output_raw': './output/1_cuda0_{}.raw', 'device': 'cuda:0'}
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 0.796 seconds.
+Prefix dict has been built successfully.
+2024-12-27 09:36:47,393 - INFO - Service: {'server_ip': 'localhost', 'server_port': 9992, 'output_raw': './output/2_cuda1_{}.raw', 'device': 'cuda:1'}
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 0.811 seconds.
+Prefix dict has been built successfully.
+2024-12-27 09:36:49,379 - INFO - Service: {'server_ip': 'localhost', 'server_port': 9993, 'output_raw': './output/3_cuda0_{}.raw', 'device': 'cuda:0'}
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Word segmentation module jieba initialized.
+
+
+vocab :  /home/wangguisen/projects/tts/F5-TTS/src/f5_tts/infer/examples/vocab.txt
+token :  custom
+model :  /home/wangguisen/projects/tts/F5-TTS/ckpts/F5TTS_Base/model_1200000.safetensors 
+
+Load vocos from local path /home/wangguisen/projects/tts/F5-TTS/ckpts/vocos-mel-24khz
+Warming up the model...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]Loading model cost 0.765 seconds.
+Prefix dict has been built successfully.
+2024-12-27 09:36:51,529 - INFO - Service: {'server_ip': 'localhost', 'server_port': 9994, 'output_raw': './output/4_cuda1_{}.raw', 'device': 'cuda:1'}
+Word segmentation module jieba initialized.
+
+
+vocab :  /home/wangguisen/projects/tts/F5-TTS/src/f5_tts/infer/examples/vocab.txt
+token :  custom
+model :  /home/wangguisen/projects/tts/F5-TTS/ckpts/F5TTS_Base/model_1200000.safetensors 
+
+Load vocos from local path /home/wangguisen/projects/tts/F5-TTS/ckpts/vocos-mel-24khz
+Warming up the model...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:02<00:00,  2.69s/it]100%|██████████| 1/1 [00:02<00:00,  2.69s/it]
+2024-12-27 09:36:52,592 - INFO - Server listening on localhost:9991
+Word segmentation module jieba initialized.
+
+
+vocab :  /home/wangguisen/projects/tts/F5-TTS/src/f5_tts/infer/examples/vocab.txt
+token :  custom
+model :  /home/wangguisen/projects/tts/F5-TTS/ckpts/F5TTS_Base/model_1200000.safetensors 
+
+Load vocos from local path /home/wangguisen/projects/tts/F5-TTS/ckpts/vocos-mel-24khz
+Warming up the model...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:02<00:00,  2.63s/it]100%|██████████| 1/1 [00:02<00:00,  2.63s/it]
+2024-12-27 09:36:54,272 - INFO - Server listening on localhost:9992
+Word segmentation module jieba initialized.
+
+
+vocab :  /home/wangguisen/projects/tts/F5-TTS/src/f5_tts/infer/examples/vocab.txt
+token :  custom
+model :  /home/wangguisen/projects/tts/F5-TTS/ckpts/F5TTS_Base/model_1200000.safetensors 
+
+Load vocos from local path /home/wangguisen/projects/tts/F5-TTS/ckpts/vocos-mel-24khz
+Warming up the model...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:02<00:00,  2.70s/it]100%|██████████| 1/1 [00:02<00:00,  2.70s/it]
+2024-12-27 09:36:56,269 - INFO - Server listening on localhost:9993
+100%|██████████| 1/1 [00:02<00:00,  2.73s/it]100%|██████████| 1/1 [00:02<00:00,  2.73s/it]
+2024-12-27 09:36:58,670 - INFO - Server listening on localhost:9994
+2024-12-27 09:37:08,385 - INFO - Accepted connection from ('127.0.0.1', 38528)
+[DEBUG] sss2 time:  2.7045376300811768
+Warm-up completed.
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:02<00:00,  2.36s/it]100%|██████████| 1/1 [00:02<00:00,  2.36s/it]
+2024-12-27 09:40:37,469 - INFO - Accepted connection from ('127.0.0.1', 47172)
+2024-12-27 09:40:37,470 - INFO - Accepted connection from ('127.0.0.1', 35108)
+[DEBUG] sss2 time:  2.3720710277557373
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s][DEBUG] sss2 time:  2.6407175064086914
+Warm-up completed.
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:02<00:00,  2.39s/it]100%|██████████| 1/1 [00:02<00:00,  2.39s/it]
+100%|██████████| 1/1 [00:02<00:00,  2.41s/it]100%|██████████| 1/1 [00:02<00:00,  2.41s/it]
+2024-12-27 09:41:21,057 - INFO - Accepted connection from ('127.0.0.1', 59418)
+2024-12-27 09:41:21,058 - INFO - Accepted connection from ('127.0.0.1', 40446)
+2024-12-27 09:41:21,059 - INFO - Accepted connection from ('127.0.0.1', 53880)
+[DEBUG] sss2 time:  2.7077770233154297
+Warm-up completed.
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s][DEBUG] sss2 time:  2.4440224170684814
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s][DEBUG] sss2 time:  2.429565906524658
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:02<00:00,  2.39s/it]100%|██████████| 1/1 [00:02<00:00,  2.39s/it]
+100%|██████████| 1/1 [00:05<00:00,  5.08s/it]100%|██████████| 1/1 [00:05<00:00,  5.08s/it]
+100%|██████████| 1/1 [00:06<00:00,  6.93s/it]100%|██████████| 1/1 [00:06<00:00,  6.93s/it]
+2024-12-27 09:43:20,180 - INFO - Accepted connection from ('127.0.0.1', 33470)
+2024-12-27 09:43:20,182 - INFO - Accepted connection from ('127.0.0.1', 46610)
+2024-12-27 09:43:20,182 - INFO - Accepted connection from ('127.0.0.1', 36668)
+2024-12-27 09:43:20,182 - INFO - Accepted connection from ('127.0.0.1', 50048)
+[DEBUG] sss2 time:  6.999653339385986
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s][DEBUG] sss2 time:  5.154443025588989
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s][DEBUG] sss2 time:  2.478276014328003
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s][DEBUG] sss2 time:  2.7359657287597656
+Warm-up completed.
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:04<00:00,  4.88s/it]100%|██████████| 1/1 [00:04<00:00,  4.88s/it]
+100%|██████████| 1/1 [00:05<00:00,  5.03s/it]100%|██████████| 1/1 [00:05<00:00,  5.03s/it]
+100%|██████████| 1/1 [00:05<00:00,  5.69s/it]100%|██████████| 1/1 [00:05<00:00,  5.69s/it]
+100%|██████████| 1/1 [00:06<00:00,  6.94s/it]100%|██████████| 1/1 [00:06<00:00,  6.94s/it]
+2024-12-27 09:44:36,305 - INFO - Accepted connection from ('127.0.0.1', 57152)
+2024-12-27 09:44:36,308 - INFO - Accepted connection from ('127.0.0.1', 57160)
+2024-12-27 09:44:36,307 - INFO - Accepted connection from ('127.0.0.1', 59396)
+2024-12-27 09:44:36,308 - INFO - Accepted connection from ('127.0.0.1', 35090)
+2024-12-27 09:44:36,308 - INFO - Accepted connection from ('127.0.0.1', 43382)
+[DEBUG] sss2 time:  7.064779996871948
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s][DEBUG] sss2 time:  5.817394256591797
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s][DEBUG] sss2 time:  5.001906871795654
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s][DEBUG] sss2 time:  5.15689492225647
+Converting audio...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]
+  0%|          | 0/1 [00:00<?, ?it/s][A100%|██████████| 1/1 [00:04<00:00,  4.92s/it]100%|██████████| 1/1 [00:04<00:00,  4.92s/it]
+100%|██████████| 1/1 [00:05<00:00,  5.68s/it]100%|██████████| 1/1 [00:05<00:00,  5.68s/it]
+100%|██████████| 1/1 [00:08<00:00,  8.98s/it]100%|██████████| 1/1 [00:08<00:00,  8.98s/it]
+
+100%|██████████| 1/1 [00:10<00:00, 10.05s/it][A100%|██████████| 1/1 [00:10<00:00, 10.05s/it]100%|██████████| 1/1 [00:10<00:00, 10.05s/it]
+100%|██████████| 1/1 [00:10<00:00, 10.05s/it]
+2024-12-27 09:45:23,183 - INFO - Accepted connection from ('127.0.0.1', 43740)
+2024-12-27 09:45:23,184 - INFO - Accepted connection from ('127.0.0.1', 60060)
+2024-12-27 09:45:23,184 - INFO - Accepted connection from ('127.0.0.1', 37826)
+2024-12-27 09:45:23,185 - INFO - Accepted connection from ('127.0.0.1', 43748)
+2024-12-27 09:45:23,185 - INFO - Accepted connection from ('127.0.0.1', 44040)
+2024-12-27 09:45:23,186 - INFO - Accepted connection from ('127.0.0.1', 37834)
+2024-12-27 09:45:23,186 - INFO - Accepted connection from ('127.0.0.1', 60068)
+2024-12-27 09:45:23,186 - INFO - Accepted connection from ('127.0.0.1', 44048)
+2024-12-27 09:45:23,187 - INFO - Accepted connection from ('127.0.0.1', 60076)
+2024-12-27 09:45:23,186 - INFO - Accepted connection from ('127.0.0.1', 43756)
+[DEBUG] sss2 time:  5.732207298278809
+Converting audio...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s][DEBUG] sss2 time:  9.030999660491943
+Converting audio...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+
+  0%|          | 0/1 [00:00<?, ?it/s]  0%|          | 0/1 [00:00<?, ?it/s][A
+  0%|          | 0/1 [00:00<?, ?it/s][A[DEBUG] sss2 time:  4.974716663360596
+Converting audio...
+Converting audio...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]
+  0%|          | 0/1 [00:00<?, ?it/s][A[DEBUG] sss2 time:  10.06363582611084
+[DEBUG] sss2 time:  10.096097707748413
+Converting audio...
+Converting audio...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+  0%|          | 0/1 [00:00<?, ?it/s][A[A
+  0%|          | 0/1 [00:00<?, ?it/s][A
+
+  0%|          | 0/1 [00:00<?, ?it/s][A[A100%|██████████| 1/1 [00:12<00:00, 12.56s/it]100%|██████████| 1/1 [00:12<00:00, 12.56s/it]
+
+100%|██████████| 1/1 [00:12<00:00, 12.57s/it][A100%|██████████| 1/1 [00:12<00:00, 12.57s/it]
+100%|██████████| 1/1 [00:14<00:00, 14.12s/it]100%|██████████| 1/1 [00:14<00:00, 14.12s/it]
+
+
+100%|██████████| 1/1 [00:14<00:00, 14.10s/it][A[A
+100%|██████████| 1/1 [00:14<00:00, 14.12s/it][A100%|██████████| 1/1 [00:14<00:00, 14.10s/it]
+100%|██████████| 1/1 [00:14<00:00, 14.12s/it]
+
+100%|██████████| 1/1 [00:14<00:00, 14.63s/it][A100%|██████████| 1/1 [00:14<00:00, 14.63s/it]
+
+
+100%|██████████| 1/1 [00:14<00:00, 14.63s/it][A[A100%|██████████| 1/1 [00:14<00:00, 14.63s/it]
+
+100%|██████████| 1/1 [00:14<00:00, 14.71s/it][A100%|██████████| 1/1 [00:14<00:00, 14.71s/it]
+100%|██████████| 1/1 [00:14<00:00, 14.66s/it]100%|██████████| 1/1 [00:14<00:00, 14.66s/it]
+100%|██████████| 1/1 [00:14<00:00, 14.73s/it]100%|██████████| 1/1 [00:14<00:00, 14.73s/it]
+2024-12-27 09:46:22,531 - INFO - Accepted connection from ('127.0.0.1', 51596)
+2024-12-27 09:46:22,533 - INFO - Accepted connection from ('127.0.0.1', 38030)
+2024-12-27 09:46:22,533 - INFO - Accepted connection from ('127.0.0.1', 51604)
+2024-12-27 09:46:22,533 - INFO - Accepted connection from ('127.0.0.1', 47278)
+2024-12-27 09:46:22,533 - INFO - Accepted connection from ('127.0.0.1', 56458)
+2024-12-27 09:46:22,535 - INFO - Accepted connection from ('127.0.0.1', 38038)
+2024-12-27 09:46:22,535 - INFO - Accepted connection from ('127.0.0.1', 47286)
+2024-12-27 09:46:22,535 - INFO - Accepted connection from ('127.0.0.1', 56466)
+2024-12-27 09:46:22,536 - INFO - Accepted connection from ('127.0.0.1', 38046)
+2024-12-27 09:46:22,536 - INFO - Accepted connection from ('127.0.0.1', 47294)
+2024-12-27 09:46:22,534 - INFO - Accepted connection from ('127.0.0.1', 51612)
+2024-12-27 09:46:22,536 - INFO - Accepted connection from ('127.0.0.1', 56474)
+[DEBUG] sss2 time:  14.662111520767212
+[DEBUG] sss2 time:  14.655319452285767
+[DEBUG] sss2 time:  14.671862125396729
+Converting audio...
+Converting audio...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s][DEBUG] sss2 time:  14.742682695388794
+[DEBUG] sss2 time:  14.772634983062744
+Converting audio...
+Converting audio...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s][DEBUG] sss2 time:  14.130685567855835
+[DEBUG] sss2 time:  14.131520748138428
+[DEBUG] sss2 time:  14.138693571090698
+Converting audio...
+Converting audio...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s][DEBUG] sss2 time:  12.59034252166748
+[DEBUG] sss2 time:  12.606873750686646
+Converting audio...
+Converting audio...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]
+  0%|          | 0/1 [00:00<?, ?it/s][A
+  0%|          | 0/1 [00:00<?, ?it/s][A
+  0%|          | 0/1 [00:00<?, ?it/s][A
+
+
+  0%|          | 0/1 [00:00<?, ?it/s][A  0%|          | 0/1 [00:00<?, ?it/s][A[A
+
+
+
+  0%|          | 0/1 [00:00<?, ?it/s][A[A  0%|          | 0/1 [00:00<?, ?it/s][A[A
+
+  0%|          | 0/1 [00:00<?, ?it/s][A[A100%|██████████| 1/1 [00:14<00:00, 14.36s/it]100%|██████████| 1/1 [00:14<00:00, 14.36s/it]
+
+100%|██████████| 1/1 [00:14<00:00, 14.37s/it][A100%|██████████| 1/1 [00:14<00:00, 14.37s/it]
+
+
+100%|██████████| 1/1 [00:14<00:00, 14.37s/it][A[A100%|██████████| 1/1 [00:14<00:00, 14.37s/it]
+
+100%|██████████| 1/1 [00:16<00:00, 16.16s/it][A100%|██████████| 1/1 [00:16<00:00, 16.16s/it]
+100%|██████████| 1/1 [00:16<00:00, 16.17s/it]100%|██████████| 1/1 [00:16<00:00, 16.17s/it]
+
+
+100%|██████████| 1/1 [00:16<00:00, 16.18s/it][A[A100%|██████████| 1/1 [00:16<00:00, 16.18s/it]
+
+
+100%|██████████| 1/1 [00:16<00:00, 16.95s/it][A[A100%|██████████| 1/1 [00:16<00:00, 16.97s/it]100%|██████████| 1/1 [00:16<00:00, 16.96s/it]
+100%|██████████| 1/1 [00:16<00:00, 16.97s/it]
+
+100%|██████████| 1/1 [00:16<00:00, 16.96s/it][A100%|██████████| 1/1 [00:16<00:00, 16.96s/it]
+
+
+100%|██████████| 1/1 [00:17<00:00, 17.55s/it][A[A100%|██████████| 1/1 [00:17<00:00, 17.55s/it]
+
+100%|██████████| 1/1 [00:17<00:00, 17.56s/it][A100%|██████████| 1/1 [00:17<00:00, 17.56s/it]
+100%|██████████| 1/1 [00:17<00:00, 17.58s/it]100%|██████████| 1/1 [00:17<00:00, 17.58s/it]
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 0.760 seconds.
+Prefix dict has been built successfully.
+2024-12-27 09:53:59,062 - INFO - Service: {'server_ip': 'localhost', 'server_port': 9991, 'output_raw': './output/1_cuda0_{}.raw', 'device': 'cuda:0'}
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 0.787 seconds.
+Prefix dict has been built successfully.
+2024-12-27 09:54:01,068 - INFO - Service: {'server_ip': 'localhost', 'server_port': 9992, 'output_raw': './output/2_cuda1_{}.raw', 'device': 'cuda:1'}
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 0.767 seconds.
+Prefix dict has been built successfully.
+2024-12-27 09:54:02,932 - INFO - Service: {'server_ip': 'localhost', 'server_port': 9993, 'output_raw': './output/3_cuda2_{}.raw', 'device': 'cuda:2'}
+Word segmentation module jieba initialized.
+
+
+vocab :  /home/wangguisen/projects/tts/F5-TTS/src/f5_tts/infer/examples/vocab.txt
+token :  custom
+model :  /home/wangguisen/projects/tts/F5-TTS/ckpts/F5TTS_Base/model_1200000.safetensors 
+
+Load vocos from local path /home/wangguisen/projects/tts/F5-TTS/ckpts/vocos-mel-24khz
+Warming up the model...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]Word segmentation module jieba initialized.
+
+
+vocab :  /home/wangguisen/projects/tts/F5-TTS/src/f5_tts/infer/examples/vocab.txt
+token :  custom
+model :  /home/wangguisen/projects/tts/F5-TTS/ckpts/F5TTS_Base/model_1200000.safetensors 
+
+Load vocos from local path /home/wangguisen/projects/tts/F5-TTS/ckpts/vocos-mel-24khz
+Warming up the model...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:02<00:00,  2.67s/it]100%|██████████| 1/1 [00:02<00:00,  2.67s/it]
+2024-12-27 09:54:05,912 - INFO - Server listening on localhost:9991
+Word segmentation module jieba initialized.
+
+
+vocab :  /home/wangguisen/projects/tts/F5-TTS/src/f5_tts/infer/examples/vocab.txt
+token :  custom
+model :  /home/wangguisen/projects/tts/F5-TTS/ckpts/F5TTS_Base/model_1200000.safetensors 
+
+Load vocos from local path /home/wangguisen/projects/tts/F5-TTS/ckpts/vocos-mel-24khz
+Warming up the model...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:02<00:00,  2.68s/it]100%|██████████| 1/1 [00:02<00:00,  2.68s/it]
+2024-12-27 09:54:08,101 - INFO - Server listening on localhost:9992
+100%|██████████| 1/1 [00:02<00:00,  2.67s/it]100%|██████████| 1/1 [00:02<00:00,  2.67s/it]
+2024-12-27 09:54:10,010 - INFO - Server listening on localhost:9993
+2024-12-27 09:55:13,575 - INFO - Accepted connection from ('127.0.0.1', 36500)
+[DEBUG] sss2 time:  2.6748907566070557
+Warm-up completed.
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:02<00:00,  2.72s/it]100%|██████████| 1/1 [00:02<00:00,  2.72s/it]
+2024-12-27 09:57:32,043 - INFO - Accepted connection from ('127.0.0.1', 52140)
+2024-12-27 09:57:32,045 - INFO - Accepted connection from ('127.0.0.1', 33332)
+[DEBUG] sss2 time:  2.748002529144287
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s][DEBUG] sss2 time:  2.6852924823760986
+Warm-up completed.
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:02<00:00,  2.35s/it]100%|██████████| 1/1 [00:02<00:00,  2.35s/it]
+100%|██████████| 1/1 [00:02<00:00,  2.37s/it]100%|██████████| 1/1 [00:02<00:00,  2.37s/it]
+2024-12-27 09:58:09,216 - INFO - Accepted connection from ('127.0.0.1', 33280)
+2024-12-27 09:58:09,218 - INFO - Accepted connection from ('127.0.0.1', 45620)
+2024-12-27 09:58:09,218 - INFO - Accepted connection from ('127.0.0.1', 47050)
+[DEBUG] sss2 time:  2.403184652328491
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s][DEBUG] sss2 time:  2.3783628940582275
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s][DEBUG] sss2 time:  2.678182363510132
+Warm-up completed.
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:02<00:00,  2.39s/it]100%|██████████| 1/1 [00:02<00:00,  2.39s/it]
+100%|██████████| 1/1 [00:02<00:00,  2.78s/it]100%|██████████| 1/1 [00:02<00:00,  2.78s/it]
+100%|██████████| 1/1 [00:04<00:00,  4.36s/it]100%|██████████| 1/1 [00:04<00:00,  4.36s/it]
+2024-12-27 09:58:38,832 - INFO - Accepted connection from ('127.0.0.1', 33128)
+2024-12-27 09:58:38,834 - INFO - Accepted connection from ('127.0.0.1', 52586)
+2024-12-27 09:58:38,834 - INFO - Accepted connection from ('127.0.0.1', 48200)
+[DEBUG] sss2 time:  2.8308677673339844
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s][DEBUG] sss2 time:  4.417030572891235
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s][DEBUG] sss2 time:  2.4247021675109863
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:02<00:00,  2.36s/it]100%|██████████| 1/1 [00:02<00:00,  2.36s/it]
+100%|██████████| 1/1 [00:02<00:00,  2.39s/it]100%|██████████| 1/1 [00:02<00:00,  2.39s/it]
+100%|██████████| 1/1 [00:04<00:00,  4.43s/it]100%|██████████| 1/1 [00:04<00:00,  4.43s/it]
+2024-12-27 09:59:25,623 - INFO - Accepted connection from ('127.0.0.1', 45540)
+2024-12-27 09:59:25,624 - INFO - Accepted connection from ('127.0.0.1', 48872)
+2024-12-27 09:59:25,625 - INFO - Accepted connection from ('127.0.0.1', 45546)
+2024-12-27 09:59:25,625 - INFO - Accepted connection from ('127.0.0.1', 58294)
+[DEBUG] sss2 time:  2.434863805770874
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s][DEBUG] sss2 time:  4.466510772705078
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s][DEBUG] sss2 time:  2.387850046157837
+Converting audio...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]
+  0%|          | 0/1 [00:00<?, ?it/s][A100%|██████████| 1/1 [00:02<00:00,  2.37s/it]100%|██████████| 1/1 [00:02<00:00,  2.37s/it]
+100%|██████████| 1/1 [00:04<00:00,  4.37s/it]100%|██████████| 1/1 [00:04<00:00,  4.37s/it]
+100%|██████████| 1/1 [00:05<00:00,  5.42s/it]100%|██████████| 1/1 [00:05<00:00,  5.42s/it]
+
+100%|██████████| 1/1 [00:05<00:00,  5.42s/it][A100%|██████████| 1/1 [00:05<00:00,  5.42s/it]
+2024-12-27 10:00:19,164 - INFO - Accepted connection from ('127.0.0.1', 52278)
+2024-12-27 10:00:19,165 - INFO - Accepted connection from ('127.0.0.1', 55450)
+2024-12-27 10:00:19,165 - INFO - Accepted connection from ('127.0.0.1', 37252)
+2024-12-27 10:00:19,166 - INFO - Accepted connection from ('127.0.0.1', 52284)
+2024-12-27 10:00:19,166 - INFO - Accepted connection from ('127.0.0.1', 55456)
+[DEBUG] sss2 time:  4.40445613861084
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s][DEBUG] sss2 time:  5.461713552474976
+[DEBUG] sss2 time:  5.449694395065308
+Converting audio...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]
+  0%|          | 0/1 [00:00<?, ?it/s][A[DEBUG] sss2 time:  2.3972251415252686
+Converting audio...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]
+  0%|          | 0/1 [00:00<?, ?it/s][A100%|██████████| 1/1 [00:04<00:00,  4.32s/it]100%|██████████| 1/1 [00:04<00:00,  4.32s/it]
+
+100%|██████████| 1/1 [00:05<00:00,  5.23s/it][A100%|██████████| 1/1 [00:05<00:00,  5.23s/it]
+100%|██████████| 1/1 [00:05<00:00,  5.24s/it]100%|██████████| 1/1 [00:05<00:00,  5.24s/it]
+100%|██████████| 1/1 [00:05<00:00,  5.39s/it]
+100%|██████████| 1/1 [00:05<00:00,  5.38s/it][A100%|██████████| 1/1 [00:05<00:00,  5.39s/it]
+100%|██████████| 1/1 [00:05<00:00,  5.38s/it]
+2024-12-27 10:02:41,110 - INFO - Accepted connection from ('127.0.0.1', 46432)
+2024-12-27 10:02:41,112 - INFO - Accepted connection from ('127.0.0.1', 49470)
+2024-12-27 10:02:41,112 - INFO - Accepted connection from ('127.0.0.1', 46438)
+2024-12-27 10:02:41,113 - INFO - Accepted connection from ('127.0.0.1', 49476)
+2024-12-27 10:02:41,113 - INFO - Accepted connection from ('127.0.0.1', 46444)
+2024-12-27 10:02:41,114 - INFO - Accepted connection from ('127.0.0.1', 49484)
+2024-12-27 10:02:41,112 - INFO - Accepted connection from ('127.0.0.1', 54132)
+2024-12-27 10:02:41,118 - INFO - Accepted connection from ('127.0.0.1', 54138)
+2024-12-27 10:02:41,119 - INFO - Accepted connection from ('127.0.0.1', 54146)
+2024-12-27 10:02:41,127 - INFO - Accepted connection from ('127.0.0.1', 46452)
+[DEBUG] sss2 time:  5.263174057006836
+[DEBUG] sss2 time:  5.290793180465698
+Converting audio...
+Converting audio...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]
+  0%|          | 0/1 [00:00<?, ?it/s][A
+
+  0%|          | 0/1 [00:00<?, ?it/s][A[A[DEBUG] sss2 time:  4.348812103271484
+Converting audio...
+Converting audio...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]
+  0%|          | 0/1 [00:00<?, ?it/s][A
+
+  0%|          | 0/1 [00:00<?, ?it/s][A[A[DEBUG] sss2 time:  5.431318283081055
+[DEBUG] sss2 time:  5.412346124649048
+Converting audio...
+Converting audio...
+Converting audio...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]
+  0%|          | 0/1 [00:00<?, ?it/s][A
+
+  0%|          | 0/1 [00:00<?, ?it/s][A[A
+
+
+  0%|          | 0/1 [00:00<?, ?it/s][A[A[A
+
+100%|██████████| 1/1 [00:08<00:00,  8.76s/it][A[A100%|██████████| 1/1 [00:08<00:00,  8.76s/it]
+100%|██████████| 1/1 [00:08<00:00,  8.77s/it]100%|██████████| 1/1 [00:08<00:00,  8.77s/it]
+
+100%|██████████| 1/1 [00:08<00:00,  8.77s/it][A100%|██████████| 1/1 [00:08<00:00,  8.78s/it]
+100%|██████████| 1/1 [00:09<00:00,  9.20s/it]100%|██████████| 1/1 [00:09<00:00,  9.20s/it]
+
+100%|██████████| 1/1 [00:09<00:00,  9.20s/it][A100%|██████████| 1/1 [00:09<00:00,  9.20s/it]
+
+
+100%|██████████| 1/1 [00:09<00:00,  9.19s/it][A[A100%|██████████| 1/1 [00:09<00:00,  9.20s/it]
+100%|██████████| 1/1 [00:09<00:00,  9.46s/it]100%|██████████| 1/1 [00:09<00:00,  9.46s/it]
+
+
+100%|██████████| 1/1 [00:09<00:00,  9.45s/it][A[A100%|██████████| 1/1 [00:09<00:00,  9.45s/it]
+
+100%|██████████| 1/1 [00:09<00:00,  9.46s/it][A
+
+
+100%|██████████| 1/1 [00:09<00:00,  9.44s/it][A[A[A100%|██████████| 1/1 [00:09<00:00,  9.47s/it]
+100%|██████████| 1/1 [00:09<00:00,  9.45s/it]
+2024-12-27 10:03:35,147 - INFO - Accepted connection from ('127.0.0.1', 60518)
+2024-12-27 10:03:35,149 - INFO - Accepted connection from ('127.0.0.1', 60524)
+2024-12-27 10:03:35,149 - INFO - Accepted connection from ('127.0.0.1', 52534)
+2024-12-27 10:03:35,150 - INFO - Accepted connection from ('127.0.0.1', 46412)
+2024-12-27 10:03:35,151 - INFO - Accepted connection from ('127.0.0.1', 52540)
+2024-12-27 10:03:35,151 - INFO - Accepted connection from ('127.0.0.1', 46418)
+2024-12-27 10:03:35,152 - INFO - Accepted connection from ('127.0.0.1', 52546)
+2024-12-27 10:03:35,152 - INFO - Accepted connection from ('127.0.0.1', 46424)
+2024-12-27 10:03:35,150 - INFO - Accepted connection from ('127.0.0.1', 60530)
+2024-12-27 10:03:35,166 - INFO - Accepted connection from ('127.0.0.1', 46430)
+2024-12-27 10:03:35,164 - INFO - Accepted connection from ('127.0.0.1', 52552)
+2024-12-27 10:03:35,203 - INFO - Accepted connection from ('127.0.0.1', 60536)
+[DEBUG] sss2 time:  9.54769229888916
+[DEBUG] sss2 time:  9.499395608901978
+[DEBUG] sss2 time:  9.502994537353516
+[DEBUG] sss2 time:  9.498051881790161
+Converting audio...
+Converting audio...
+Converting audio...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]
+  0%|          | 0/1 [00:00<?, ?it/s][A
+
+  0%|          | 0/1 [00:00<?, ?it/s][A[A
+
+
+  0%|          | 0/1 [00:00<?, ?it/s][A[A[A[DEBUG] sss2 time:  8.79395318031311
+[DEBUG] sss2 time:  8.802140951156616
+[DEBUG] sss2 time:  8.830559253692627
+Converting audio...
+Converting audio...
+Converting audio...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]
+  0%|          | 0/1 [00:00<?, ?it/s][A
+
+  0%|          | 0/1 [00:00<?, ?it/s][A[A
+
+
+  0%|          | 0/1 [00:00<?, ?it/s][A[A[A[DEBUG] sss2 time:  9.269111156463623
+[DEBUG] sss2 time:  9.30843710899353
+[DEBUG] sss2 time:  9.237513542175293
+Converting audio...
+Converting audio...
+Converting audio...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]
+  0%|          | 0/1 [00:00<?, ?it/s][A
+
+  0%|          | 0/1 [00:00<?, ?it/s][A[A
+
+
+  0%|          | 0/1 [00:00<?, ?it/s][A[A[A
+
+
+100%|██████████| 1/1 [00:09<00:00,  9.47s/it][A[A[A100%|██████████| 1/1 [00:09<00:00,  9.50s/it]
+
+100%|██████████| 1/1 [00:09<00:00,  9.48s/it][A[A100%|██████████| 1/1 [00:09<00:00,  9.47s/it]
+100%|██████████| 1/1 [00:09<00:00,  9.50s/it]
+100%|██████████| 1/1 [00:09<00:00,  9.49s/it]
+
+100%|██████████| 1/1 [00:09<00:00,  9.49s/it][A100%|██████████| 1/1 [00:09<00:00,  9.50s/it]
+
+100%|██████████| 1/1 [00:11<00:00, 11.63s/it][A100%|██████████| 1/1 [00:11<00:00, 11.64s/it]100%|██████████| 1/1 [00:11<00:00, 11.63s/it]
+
+
+100%|██████████| 1/1 [00:11<00:00, 11.62s/it][A[A100%|██████████| 1/1 [00:11<00:00, 11.64s/it]
+100%|██████████| 1/1 [00:11<00:00, 11.62s/it]
+
+
+
+100%|██████████| 1/1 [00:11<00:00, 11.62s/it][A[A[A100%|██████████| 1/1 [00:11<00:00, 11.62s/it]
+100%|██████████| 1/1 [00:11<00:00, 11.69s/it]100%|██████████| 1/1 [00:11<00:00, 11.69s/it]
+
+
+
+100%|██████████| 1/1 [00:11<00:00, 11.67s/it][A[A[A100%|██████████| 1/1 [00:11<00:00, 11.67s/it]
+
+
+100%|██████████| 1/1 [00:11<00:00, 11.70s/it][A[A100%|██████████| 1/1 [00:11<00:00, 11.70s/it]
+
+100%|██████████| 1/1 [00:11<00:00, 11.71s/it][A100%|██████████| 1/1 [00:11<00:00, 11.71s/it]
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 0.797 seconds.
+Prefix dict has been built successfully.
+2024-12-27 10:05:32,073 - INFO - Service: {'server_ip': 'localhost', 'server_port': 9991, 'output_raw': './output/1_cuda0_{}.raw', 'device': 'cuda:0'}
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 0.750 seconds.
+Prefix dict has been built successfully.
+2024-12-27 10:05:33,901 - INFO - Service: {'server_ip': 'localhost', 'server_port': 9992, 'output_raw': './output/2_cuda1_{}.raw', 'device': 'cuda:1'}
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 0.835 seconds.
+Prefix dict has been built successfully.
+2024-12-27 10:05:36,562 - INFO - Service: {'server_ip': 'localhost', 'server_port': 9993, 'output_raw': './output/3_cuda2_{}.raw', 'device': 'cuda:2'}
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Word segmentation module jieba initialized.
+
+
+vocab :  /home/wangguisen/projects/tts/F5-TTS/src/f5_tts/infer/examples/vocab.txt
+token :  custom
+model :  /home/wangguisen/projects/tts/F5-TTS/ckpts/F5TTS_Base/model_1200000.safetensors 
+
+Load vocos from local path /home/wangguisen/projects/tts/F5-TTS/ckpts/vocos-mel-24khz
+Warming up the model...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]Loading model cost 0.875 seconds.
+Prefix dict has been built successfully.
+2024-12-27 10:05:38,496 - INFO - Service: {'server_ip': 'localhost', 'server_port': 9994, 'output_raw': './output/4_cuda0_{}.raw', 'device': 'cuda:0'}
+Word segmentation module jieba initialized.
+
+
+vocab :  /home/wangguisen/projects/tts/F5-TTS/src/f5_tts/infer/examples/vocab.txt
+token :  custom
+model :  /home/wangguisen/projects/tts/F5-TTS/ckpts/F5TTS_Base/model_1200000.safetensors 
+
+Load vocos from local path /home/wangguisen/projects/tts/F5-TTS/ckpts/vocos-mel-24khz
+Warming up the model...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 0.836 seconds.
+Prefix dict has been built successfully.
+100%|██████████| 1/1 [00:02<00:00,  2.90s/it]100%|██████████| 1/1 [00:02<00:00,  2.90s/it]
+2024-12-27 10:05:39,822 - INFO - Server listening on localhost:9991
+2024-12-27 10:05:40,543 - INFO - Service: {'server_ip': 'localhost', 'server_port': 9995, 'output_raw': './output/5_cuda1_{}.raw', 'device': 'cuda:1'}
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Word segmentation module jieba initialized.
+
+
+vocab :  /home/wangguisen/projects/tts/F5-TTS/src/f5_tts/infer/examples/vocab.txt
+token :  custom
+model :  /home/wangguisen/projects/tts/F5-TTS/ckpts/F5TTS_Base/model_1200000.safetensors 
+
+Load vocos from local path /home/wangguisen/projects/tts/F5-TTS/ckpts/vocos-mel-24khz
+Warming up the model...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:02<00:00,  2.88s/it]100%|██████████| 1/1 [00:02<00:00,  2.88s/it]
+2024-12-27 10:05:41,428 - INFO - Server listening on localhost:9992
+Loading model cost 0.811 seconds.
+Prefix dict has been built successfully.
+2024-12-27 10:05:42,749 - INFO - Service: {'server_ip': 'localhost', 'server_port': 9996, 'output_raw': './output/6_cuda2_{}.raw', 'device': 'cuda:2'}
+Word segmentation module jieba initialized.
+
+
+vocab :  /home/wangguisen/projects/tts/F5-TTS/src/f5_tts/infer/examples/vocab.txt
+token :  custom
+model :  /home/wangguisen/projects/tts/F5-TTS/ckpts/F5TTS_Base/model_1200000.safetensors 
+
+Load vocos from local path /home/wangguisen/projects/tts/F5-TTS/ckpts/vocos-mel-24khz
+Warming up the model...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:02<00:00,  2.73s/it]100%|██████████| 1/1 [00:02<00:00,  2.73s/it]
+2024-12-27 10:05:44,009 - INFO - Server listening on localhost:9993
+Word segmentation module jieba initialized.
+
+
+vocab :  /home/wangguisen/projects/tts/F5-TTS/src/f5_tts/infer/examples/vocab.txt
+token :  custom
+model :  /home/wangguisen/projects/tts/F5-TTS/ckpts/F5TTS_Base/model_1200000.safetensors 
+
+Load vocos from local path /home/wangguisen/projects/tts/F5-TTS/ckpts/vocos-mel-24khz
+Warming up the model...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:02<00:00,  2.94s/it]100%|██████████| 1/1 [00:02<00:00,  2.95s/it]
+2024-12-27 10:05:46,197 - INFO - Server listening on localhost:9994
+Word segmentation module jieba initialized.
+
+
+vocab :  /home/wangguisen/projects/tts/F5-TTS/src/f5_tts/infer/examples/vocab.txt
+token :  custom
+model :  /home/wangguisen/projects/tts/F5-TTS/ckpts/F5TTS_Base/model_1200000.safetensors 
+
+Load vocos from local path /home/wangguisen/projects/tts/F5-TTS/ckpts/vocos-mel-24khz
+Warming up the model...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:02<00:00,  2.68s/it]100%|██████████| 1/1 [00:02<00:00,  2.68s/it]
+2024-12-27 10:05:47,563 - INFO - Server listening on localhost:9995
+100%|██████████| 1/1 [00:02<00:00,  2.67s/it]100%|██████████| 1/1 [00:02<00:00,  2.67s/it]
+2024-12-27 10:05:49,587 - INFO - Server listening on localhost:9996
+2024-12-27 10:09:20,367 - INFO - Accepted connection from ('127.0.0.1', 34374)
+[DEBUG] sss2 time:  2.905111789703369
+Warm-up completed.
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:02<00:00,  2.36s/it]100%|██████████| 1/1 [00:02<00:00,  2.36s/it]
+2024-12-27 10:10:03,880 - INFO - Accepted connection from ('127.0.0.1', 57556)
+2024-12-27 10:10:03,882 - INFO - Accepted connection from ('127.0.0.1', 56412)
+[DEBUG] sss2 time:  2.3843743801116943
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s][DEBUG] sss2 time:  2.8838465213775635
+Warm-up completed.
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:02<00:00,  2.34s/it]100%|██████████| 1/1 [00:02<00:00,  2.34s/it]
+100%|██████████| 1/1 [00:02<00:00,  2.35s/it]100%|██████████| 1/1 [00:02<00:00,  2.35s/it]
+2024-12-27 10:11:02,340 - INFO - Accepted connection from ('127.0.0.1', 32946)
+2024-12-27 10:11:02,342 - INFO - Accepted connection from ('127.0.0.1', 53970)
+2024-12-27 10:11:02,342 - INFO - Accepted connection from ('127.0.0.1', 48170)
+[DEBUG] sss2 time:  2.3790249824523926
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s][DEBUG] sss2 time:  2.7355988025665283
+Warm-up completed.
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s][DEBUG] sss2 time:  2.3624536991119385
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:02<00:00,  2.36s/it]100%|██████████| 1/1 [00:02<00:00,  2.36s/it]
+100%|██████████| 1/1 [00:02<00:00,  2.37s/it]100%|██████████| 1/1 [00:02<00:00,  2.37s/it]
+100%|██████████| 1/1 [00:04<00:00,  4.33s/it]100%|██████████| 1/1 [00:04<00:00,  4.33s/it]
+2024-12-27 10:13:30,868 - INFO - Accepted connection from ('127.0.0.1', 34790)
+2024-12-27 10:13:30,869 - INFO - Accepted connection from ('127.0.0.1', 44290)
+2024-12-27 10:13:30,870 - INFO - Accepted connection from ('127.0.0.1', 60390)
+2024-12-27 10:13:30,870 - INFO - Accepted connection from ('127.0.0.1', 41708)
+[DEBUG] sss2 time:  2.4230635166168213
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s][DEBUG] sss2 time:  2.952981948852539
+Warm-up completed.
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s][DEBUG] sss2 time:  2.40177845954895
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s][DEBUG] sss2 time:  4.386124610900879
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:02<00:00,  2.40s/it]100%|██████████| 1/1 [00:02<00:00,  2.40s/it]
+100%|██████████| 1/1 [00:04<00:00,  4.32s/it]100%|██████████| 1/1 [00:04<00:00,  4.32s/it]
+100%|██████████| 1/1 [00:04<00:00,  4.88s/it]100%|██████████| 1/1 [00:04<00:00,  4.88s/it]
+100%|██████████| 1/1 [00:05<00:00,  5.69s/it]100%|██████████| 1/1 [00:05<00:00,  5.69s/it]
+2024-12-27 10:14:21,724 - INFO - Accepted connection from ('127.0.0.1', 59028)
+2024-12-27 10:14:21,726 - INFO - Accepted connection from ('127.0.0.1', 49540)
+2024-12-27 10:14:21,726 - INFO - Accepted connection from ('127.0.0.1', 59710)
+2024-12-27 10:14:21,726 - INFO - Accepted connection from ('127.0.0.1', 51336)
+2024-12-27 10:14:21,726 - INFO - Accepted connection from ('127.0.0.1', 34196)
+[DEBUG] sss2 time:  2.438145637512207
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s][DEBUG] sss2 time:  4.913679361343384
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s][DEBUG] sss2 time:  5.709598064422607
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s][DEBUG] sss2 time:  2.6932120323181152
+Warm-up completed.
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s][DEBUG] sss2 time:  4.368499517440796
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:04<00:00,  4.32s/it]100%|██████████| 1/1 [00:04<00:00,  4.32s/it]
+100%|██████████| 1/1 [00:04<00:00,  4.88s/it]100%|██████████| 1/1 [00:04<00:00,  4.88s/it]
+100%|██████████| 1/1 [00:04<00:00,  4.92s/it]100%|██████████| 1/1 [00:04<00:00,  4.92s/it]
+100%|██████████| 1/1 [00:05<00:00,  5.46s/it]100%|██████████| 1/1 [00:05<00:00,  5.46s/it]
+100%|██████████| 1/1 [00:05<00:00,  5.70s/it]100%|██████████| 1/1 [00:05<00:00,  5.70s/it]
+2024-12-27 10:15:13,232 - INFO - Accepted connection from ('127.0.0.1', 47454)
+2024-12-27 10:15:13,233 - INFO - Accepted connection from ('127.0.0.1', 45306)
+2024-12-27 10:15:13,233 - INFO - Accepted connection from ('127.0.0.1', 49630)
+2024-12-27 10:15:13,234 - INFO - Accepted connection from ('127.0.0.1', 59262)
+2024-12-27 10:15:13,234 - INFO - Accepted connection from ('127.0.0.1', 47466)
+2024-12-27 10:15:13,234 - INFO - Accepted connection from ('127.0.0.1', 33620)
+2024-12-27 10:15:13,234 - INFO - Accepted connection from ('127.0.0.1', 38014)
+2024-12-27 10:15:13,234 - INFO - Accepted connection from ('127.0.0.1', 49642)
+2024-12-27 10:15:13,234 - INFO - Accepted connection from ('127.0.0.1', 45318)
+2024-12-27 10:15:13,236 - INFO - Accepted connection from ('127.0.0.1', 33632)
+[DEBUG] sss2 time:  2.671462059020996
+Warm-up completed.
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s][DEBUG] sss2 time:  5.605534553527832
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s][DEBUG] sss2 time:  4.966394424438477
+Converting audio...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]
+  0%|          | 0/1 [00:00<?, ?it/s][A[DEBUG] sss2 time:  5.025288343429565
+Converting audio...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s][DEBUG] sss2 time:  5.815976142883301
+Converting audio...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]
+[DEBUG] sss2 time:  4.468566417694092
+Converting audio...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]
+  0%|          | 0/1 [00:00<?, ?it/s][A  0%|          | 0/1 [00:00<?, ?it/s][A
+  0%|          | 0/1 [00:00<?, ?it/s][A100%|██████████| 1/1 [00:04<00:00,  4.62s/it]100%|██████████| 1/1 [00:04<00:00,  4.62s/it]
+100%|██████████| 1/1 [00:06<00:00,  6.28s/it]100%|██████████| 1/1 [00:06<00:00,  6.28s/it]
+
+100%|██████████| 1/1 [00:08<00:00,  8.60s/it][A100%|██████████| 1/1 [00:08<00:00,  8.60s/it]
+100%|██████████| 1/1 [00:08<00:00,  8.61s/it]100%|██████████| 1/1 [00:08<00:00,  8.61s/it]
+100%|██████████| 1/1 [00:08<00:00,  8.94s/it]100%|██████████| 1/1 [00:08<00:00,  8.94s/it]
+
+100%|██████████| 1/1 [00:08<00:00,  8.94s/it][A100%|██████████| 1/1 [00:08<00:00,  8.94s/it]
+
+100%|██████████| 1/1 [00:09<00:00,  9.59s/it][A100%|██████████| 1/1 [00:09<00:00,  9.59s/it]
+100%|██████████| 1/1 [00:09<00:00,  9.60s/it]100%|██████████| 1/1 [00:09<00:00,  9.60s/it]
+100%|██████████| 1/1 [00:09<00:00,  9.79s/it]100%|██████████| 1/1 [00:09<00:00,  9.79s/it]
+
+100%|██████████| 1/1 [00:09<00:00,  9.78s/it][A100%|██████████| 1/1 [00:09<00:00,  9.78s/it]
+2024-12-27 10:16:03,055 - INFO - Accepted connection from ('127.0.0.1', 36178)
+2024-12-27 10:16:03,056 - INFO - Accepted connection from ('127.0.0.1', 42724)
+2024-12-27 10:16:03,056 - INFO - Accepted connection from ('127.0.0.1', 50332)
+2024-12-27 10:16:03,057 - INFO - Accepted connection from ('127.0.0.1', 37828)
+2024-12-27 10:16:03,057 - INFO - Accepted connection from ('127.0.0.1', 43818)
+2024-12-27 10:16:03,057 - INFO - Accepted connection from ('127.0.0.1', 36190)
+2024-12-27 10:16:03,057 - INFO - Accepted connection from ('127.0.0.1', 40964)
+2024-12-27 10:16:03,058 - INFO - Accepted connection from ('127.0.0.1', 43830)
+2024-12-27 10:16:03,058 - INFO - Accepted connection from ('127.0.0.1', 50344)
+2024-12-27 10:16:03,058 - INFO - Accepted connection from ('127.0.0.1', 37840)
+2024-12-27 10:16:03,058 - INFO - Accepted connection from ('127.0.0.1', 42736)
+2024-12-27 10:16:03,059 - INFO - Accepted connection from ('127.0.0.1', 40976)
+[DEBUG] sss2 time:  9.806426763534546
+[DEBUG] sss2 time:  9.807512998580933
+Converting audio...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]
+  0%|          | 0/1 [00:00<?, ?it/s][A[DEBUG] sss2 time:  9.603764295578003
+[DEBUG] sss2 time:  9.636070728302002
+Converting audio...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s][DEBUG] sss2 time:  8.628480434417725
+[DEBUG] sss2 time:  8.65416669845581
+Converting audio...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]
+[DEBUG] sss2 time:  6.3177809715271
+Converting audio...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]  0%|          | 0/1 [00:00<?, ?it/s][A
+  0%|          | 0/1 [00:00<?, ?it/s][A
+  0%|          | 0/1 [00:00<?, ?it/s][A[DEBUG] sss2 time:  8.982541561126709
+[DEBUG] sss2 time:  8.970771551132202
+Converting audio...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s][DEBUG] sss2 time:  4.647668838500977
+Converting audio...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+  0%|          | 0/1 [00:00<?, ?it/s][A  0%|          | 0/1 [00:00<?, ?it/s][A100%|██████████| 1/1 [00:08<00:00,  8.71s/it]100%|██████████| 1/1 [00:08<00:00,  8.71s/it]
+
+100%|██████████| 1/1 [00:08<00:00,  8.71s/it][A100%|██████████| 1/1 [00:08<00:00,  8.71s/it]
+
+100%|██████████| 1/1 [00:09<00:00,  9.79s/it][A100%|██████████| 1/1 [00:09<00:00,  9.80s/it]100%|██████████| 1/1 [00:09<00:00,  9.79s/it]
+100%|██████████| 1/1 [00:09<00:00,  9.80s/it]
+
+100%|██████████| 1/1 [00:10<00:00, 10.94s/it][A100%|██████████| 1/1 [00:10<00:00, 10.94s/it]
+100%|██████████| 1/1 [00:10<00:00, 10.96s/it]100%|██████████| 1/1 [00:10<00:00, 10.96s/it]
+100%|██████████| 1/1 [00:11<00:00, 11.15s/it]100%|██████████| 1/1 [00:11<00:00, 11.15s/it]
+
+100%|██████████| 1/1 [00:11<00:00, 11.15s/it][A100%|██████████| 1/1 [00:11<00:00, 11.15s/it]
+
+100%|██████████| 1/1 [00:12<00:00, 12.16s/it][A100%|██████████| 1/1 [00:12<00:00, 12.16s/it]100%|██████████| 1/1 [00:12<00:00, 12.16s/it]
+100%|██████████| 1/1 [00:12<00:00, 12.16s/it]
+
+100%|██████████| 1/1 [00:12<00:00, 12.25s/it][A100%|██████████| 1/1 [00:12<00:00, 12.26s/it]100%|██████████| 1/1 [00:12<00:00, 12.25s/it]
+100%|██████████| 1/1 [00:12<00:00, 12.26s/it]
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 0.811 seconds.
+Prefix dict has been built successfully.
+2024-12-27 10:17:29,952 - INFO - Service: {'server_ip': 'localhost', 'server_port': 9991, 'output_raw': './output/1_cuda0_{}.raw', 'device': 'cuda:0'}
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 0.865 seconds.
+Prefix dict has been built successfully.
+2024-12-27 10:17:31,856 - INFO - Service: {'server_ip': 'localhost', 'server_port': 9992, 'output_raw': './output/2_cuda1_{}.raw', 'device': 'cuda:1'}
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 0.794 seconds.
+Prefix dict has been built successfully.
+2024-12-27 10:17:33,652 - INFO - Service: {'server_ip': 'localhost', 'server_port': 9993, 'output_raw': './output/3_cuda2_{}.raw', 'device': 'cuda:2'}
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Word segmentation module jieba initialized.
+
+
+vocab :  /home/wangguisen/projects/tts/F5-TTS/src/f5_tts/infer/examples/vocab.txt
+token :  custom
+model :  /home/wangguisen/projects/tts/F5-TTS/ckpts/F5TTS_Base/model_1200000.safetensors 
+
+Load vocos from local path /home/wangguisen/projects/tts/F5-TTS/ckpts/vocos-mel-24khz
+Warming up the model...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]Loading model cost 0.819 seconds.
+Prefix dict has been built successfully.
+2024-12-27 10:17:36,166 - INFO - Service: {'server_ip': 'localhost', 'server_port': 9994, 'output_raw': './output/4_cuda3_{}.raw', 'device': 'cuda:3'}
+Word segmentation module jieba initialized.
+
+
+vocab :  /home/wangguisen/projects/tts/F5-TTS/src/f5_tts/infer/examples/vocab.txt
+token :  custom
+model :  /home/wangguisen/projects/tts/F5-TTS/ckpts/F5TTS_Base/model_1200000.safetensors 
+
+Load vocos from local path /home/wangguisen/projects/tts/F5-TTS/ckpts/vocos-mel-24khz
+Warming up the model...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:02<00:00,  2.81s/it]100%|██████████| 1/1 [00:02<00:00,  2.81s/it]
+2024-12-27 10:17:37,217 - INFO - Server listening on localhost:9991
+Word segmentation module jieba initialized.
+
+
+vocab :  /home/wangguisen/projects/tts/F5-TTS/src/f5_tts/infer/examples/vocab.txt
+token :  custom
+model :  /home/wangguisen/projects/tts/F5-TTS/ckpts/F5TTS_Base/model_1200000.safetensors 
+
+Load vocos from local path /home/wangguisen/projects/tts/F5-TTS/ckpts/vocos-mel-24khz
+Warming up the model...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:02<00:00,  2.76s/it]100%|██████████| 1/1 [00:02<00:00,  2.76s/it]
+2024-12-27 10:17:39,351 - INFO - Server listening on localhost:9992
+Word segmentation module jieba initialized.
+
+
+vocab :  /home/wangguisen/projects/tts/F5-TTS/src/f5_tts/infer/examples/vocab.txt
+token :  custom
+model :  /home/wangguisen/projects/tts/F5-TTS/ckpts/F5TTS_Base/model_1200000.safetensors 
+
+Load vocos from local path /home/wangguisen/projects/tts/F5-TTS/ckpts/vocos-mel-24khz
+Warming up the model...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:02<00:00,  2.72s/it]100%|██████████| 1/1 [00:02<00:00,  2.72s/it]
+2024-12-27 10:17:40,677 - INFO - Server listening on localhost:9993
+100%|██████████| 1/1 [00:02<00:00,  2.69s/it]100%|██████████| 1/1 [00:02<00:00,  2.69s/it]
+2024-12-27 10:17:43,330 - INFO - Server listening on localhost:9994
+2024-12-27 10:20:46,507 - INFO - Accepted connection from ('127.0.0.1', 42766)
+[DEBUG] sss2 time:  2.8183653354644775
+Warm-up completed.
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:02<00:00,  2.36s/it]100%|██████████| 1/1 [00:02<00:00,  2.36s/it]
+2024-12-27 10:21:29,824 - INFO - Accepted connection from ('127.0.0.1', 56966)
+2024-12-27 10:21:29,825 - INFO - Accepted connection from ('127.0.0.1', 36846)
+[DEBUG] sss2 time:  2.3896939754486084
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s][DEBUG] sss2 time:  2.773620843887329
+Warm-up completed.
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:02<00:00,  2.37s/it]100%|██████████| 1/1 [00:02<00:00,  2.37s/it]
+100%|██████████| 1/1 [00:02<00:00,  2.46s/it]100%|██████████| 1/1 [00:02<00:00,  2.46s/it]
+2024-12-27 10:22:08,122 - INFO - Accepted connection from ('127.0.0.1', 44400)
+2024-12-27 10:22:08,124 - INFO - Accepted connection from ('127.0.0.1', 53458)
+2024-12-27 10:22:08,128 - INFO - Accepted connection from ('127.0.0.1', 45124)
+[DEBUG] sss2 time:  2.729869842529297
+Warm-up completed.
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s][DEBUG] sss2 time:  2.40132999420166
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s][DEBUG] sss2 time:  2.4937984943389893
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:02<00:00,  2.40s/it]100%|██████████| 1/1 [00:02<00:00,  2.40s/it]
+100%|██████████| 1/1 [00:02<00:00,  2.78s/it]100%|██████████| 1/1 [00:02<00:00,  2.78s/it]
+100%|██████████| 1/1 [00:04<00:00,  4.41s/it]100%|██████████| 1/1 [00:04<00:00,  4.41s/it]
+2024-12-27 10:23:01,100 - INFO - Accepted connection from ('127.0.0.1', 58450)
+2024-12-27 10:23:01,101 - INFO - Accepted connection from ('127.0.0.1', 38994)
+2024-12-27 10:23:01,102 - INFO - Accepted connection from ('127.0.0.1', 42680)
+2024-12-27 10:23:01,102 - INFO - Accepted connection from ('127.0.0.1', 38096)
+[DEBUG] sss2 time:  4.442902565002441
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s][DEBUG] sss2 time:  2.6968624591827393
+Warm-up completed.
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s][DEBUG] sss2 time:  2.8125572204589844
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s][DEBUG] sss2 time:  2.428455114364624
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:02<00:00,  2.38s/it]100%|██████████| 1/1 [00:02<00:00,  2.38s/it]
+100%|██████████| 1/1 [00:02<00:00,  2.42s/it]100%|██████████| 1/1 [00:02<00:00,  2.42s/it]
+100%|██████████| 1/1 [00:03<00:00,  3.20s/it]100%|██████████| 1/1 [00:03<00:00,  3.20s/it]
+100%|██████████| 1/1 [00:04<00:00,  4.36s/it]100%|██████████| 1/1 [00:04<00:00,  4.36s/it]
+2024-12-27 10:23:48,095 - INFO - Accepted connection from ('127.0.0.1', 37960)
+2024-12-27 10:23:48,097 - INFO - Accepted connection from ('127.0.0.1', 43604)
+2024-12-27 10:23:48,097 - INFO - Accepted connection from ('127.0.0.1', 57048)
+2024-12-27 10:23:48,098 - INFO - Accepted connection from ('127.0.0.1', 37970)
+2024-12-27 10:23:48,097 - INFO - Accepted connection from ('127.0.0.1', 44214)
+[DEBUG] sss2 time:  4.3932716846466064
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s][DEBUG] sss2 time:  2.5352838039398193
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s][DEBUG] sss2 time:  3.3106155395507812
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s][DEBUG] sss2 time:  2.508925199508667
+Converting audio...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]
+  0%|          | 0/1 [00:00<?, ?it/s][A100%|██████████| 1/1 [00:02<00:00,  2.39s/it]100%|██████████| 1/1 [00:02<00:00,  2.39s/it]
+100%|██████████| 1/1 [00:03<00:00,  3.19s/it]100%|██████████| 1/1 [00:03<00:00,  3.19s/it]
+100%|██████████| 1/1 [00:04<00:00,  4.34s/it]100%|██████████| 1/1 [00:04<00:00,  4.34s/it]
+
+100%|██████████| 1/1 [00:05<00:00,  5.19s/it][A100%|██████████| 1/1 [00:05<00:00,  5.19s/it]
+100%|██████████| 1/1 [00:05<00:00,  5.20s/it]100%|██████████| 1/1 [00:05<00:00,  5.20s/it]
+2024-12-27 10:24:28,258 - INFO - Accepted connection from ('127.0.0.1', 43794)
+2024-12-27 10:24:28,259 - INFO - Accepted connection from ('127.0.0.1', 33972)
+2024-12-27 10:24:28,259 - INFO - Accepted connection from ('127.0.0.1', 54134)
+2024-12-27 10:24:28,260 - INFO - Accepted connection from ('127.0.0.1', 36964)
+2024-12-27 10:24:28,260 - INFO - Accepted connection from ('127.0.0.1', 33980)
+2024-12-27 10:24:28,260 - INFO - Accepted connection from ('127.0.0.1', 54142)
+2024-12-27 10:24:28,262 - INFO - Accepted connection from ('127.0.0.1', 36972)
+2024-12-27 10:24:28,260 - INFO - Accepted connection from ('127.0.0.1', 43802)
+2024-12-27 10:24:28,261 - INFO - Accepted connection from ('127.0.0.1', 33988)
+2024-12-27 10:24:28,292 - INFO - Accepted connection from ('127.0.0.1', 43810)
+[DEBUG] sss2 time:  3.241748094558716
+Converting audio...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s][DEBUG] sss2 time:  4.367844581604004
+Converting audio...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+  0%|          | 0/1 [00:00<?, ?it/s][A  0%|          | 0/1 [00:00<?, ?it/s][A[DEBUG] sss2 time:  2.423095941543579
+Converting audio...
+Converting audio...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]
+  0%|          | 0/1 [00:00<?, ?it/s][A
+
+  0%|          | 0/1 [00:00<?, ?it/s][A[A[DEBUG] sss2 time:  5.224164962768555
+[DEBUG] sss2 time:  5.235394477844238
+Converting audio...
+Converting audio...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]
+  0%|          | 0/1 [00:00<?, ?it/s][A
+
+  0%|          | 0/1 [00:00<?, ?it/s][A[A
+100%|██████████| 1/1 [00:06<00:00,  6.07s/it][A100%|██████████| 1/1 [00:06<00:00,  6.07s/it]100%|██████████| 1/1 [00:06<00:00,  6.07s/it]
+100%|██████████| 1/1 [00:06<00:00,  6.07s/it]
+
+
+100%|██████████| 1/1 [00:06<00:00,  6.70s/it][A[A100%|██████████| 1/1 [00:06<00:00,  6.70s/it]
+100%|██████████| 1/1 [00:06<00:00,  6.71s/it]100%|██████████| 1/1 [00:06<00:00,  6.71s/it]
+
+100%|██████████| 1/1 [00:06<00:00,  6.72s/it][A100%|██████████| 1/1 [00:06<00:00,  6.72s/it]
+
+100%|██████████| 1/1 [00:07<00:00,  7.20s/it][A100%|██████████| 1/1 [00:07<00:00,  7.20s/it]
+100%|██████████| 1/1 [00:07<00:00,  7.21s/it]100%|██████████| 1/1 [00:07<00:00,  7.21s/it]
+100%|██████████| 1/1 [00:07<00:00,  7.48s/it]100%|██████████| 1/1 [00:07<00:00,  7.48s/it]
+
+100%|██████████| 1/1 [00:07<00:00,  7.48s/it][A100%|██████████| 1/1 [00:07<00:00,  7.48s/it]
+
+
+100%|██████████| 1/1 [00:07<00:00,  7.48s/it][A[A100%|██████████| 1/1 [00:07<00:00,  7.48s/it]
+2024-12-27 10:25:09,032 - INFO - Accepted connection from ('127.0.0.1', 49088)
+2024-12-27 10:25:09,033 - INFO - Accepted connection from ('127.0.0.1', 43834)
+2024-12-27 10:25:09,033 - INFO - Accepted connection from ('127.0.0.1', 44744)
+2024-12-27 10:25:09,034 - INFO - Accepted connection from ('127.0.0.1', 49096)
+2024-12-27 10:25:09,034 - INFO - Accepted connection from ('127.0.0.1', 40748)
+2024-12-27 10:25:09,035 - INFO - Accepted connection from ('127.0.0.1', 43842)
+2024-12-27 10:25:09,035 - INFO - Accepted connection from ('127.0.0.1', 44752)
+2024-12-27 10:25:09,035 - INFO - Accepted connection from ('127.0.0.1', 49104)
+2024-12-27 10:25:09,036 - INFO - Accepted connection from ('127.0.0.1', 40756)
+2024-12-27 10:25:09,036 - INFO - Accepted connection from ('127.0.0.1', 44760)
+2024-12-27 10:25:09,037 - INFO - Accepted connection from ('127.0.0.1', 40764)
+2024-12-27 10:25:09,036 - INFO - Accepted connection from ('127.0.0.1', 43850)
+[DEBUG] sss2 time:  6.782668113708496
+[DEBUG] sss2 time:  6.754308700561523
+[DEBUG] sss2 time:  6.7446722984313965
+Converting audio...
+Converting audio...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]
+  0%|          | 0/1 [00:00<?, ?it/s][A
+
+  0%|          | 0/1 [00:00<?, ?it/s][A[A[DEBUG] sss2 time:  7.234301805496216
+[DEBUG] sss2 time:  7.258245468139648
+Converting audio...
+Converting audio...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]
+  0%|          | 0/1 [00:00<?, ?it/s][A[DEBUG] sss2 time:  6.103217363357544
+[DEBUG] sss2 time:  6.125341892242432
+Converting audio...
+Converting audio...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+  0%|          | 0/1 [00:00<?, ?it/s][A[A
+  0%|          | 0/1 [00:00<?, ?it/s][A
+
+  0%|          | 0/1 [00:00<?, ?it/s][A[A[DEBUG] sss2 time:  7.587373971939087
+[DEBUG] sss2 time:  7.532296419143677
+[DEBUG] sss2 time:  7.522969961166382
+Converting audio...
+Converting audio...
+Converting audio...
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+Using custom reference text...
+
+ref_text   那到时候再给你打电话，麻烦你注意接听。
+  0%|          | 0/1 [00:00<?, ?it/s]
+  0%|          | 0/1 [00:00<?, ?it/s][A
+
+  0%|          | 0/1 [00:00<?, ?it/s][A[A
+100%|██████████| 1/1 [00:06<00:00,  6.70s/it][A100%|██████████| 1/1 [00:06<00:00,  6.71s/it]100%|██████████| 1/1 [00:06<00:00,  6.70s/it]
+100%|██████████| 1/1 [00:06<00:00,  6.71s/it]
+
+
+100%|██████████| 1/1 [00:06<00:00,  6.71s/it][A[A100%|██████████| 1/1 [00:06<00:00,  6.71s/it]
+100%|██████████| 1/1 [00:07<00:00,  7.49s/it]100%|██████████| 1/1 [00:07<00:00,  7.49s/it]
+
+
+100%|██████████| 1/1 [00:07<00:00,  7.47s/it][A[A100%|██████████| 1/1 [00:07<00:00,  7.47s/it]
+
+100%|██████████| 1/1 [00:07<00:00,  7.50s/it][A100%|██████████| 1/1 [00:07<00:00,  7.50s/it]
+
+
+100%|██████████| 1/1 [00:08<00:00,  8.36s/it][A[A100%|██████████| 1/1 [00:08<00:00,  8.36s/it]
+100%|██████████| 1/1 [00:08<00:00,  8.37s/it]100%|██████████| 1/1 [00:08<00:00,  8.37s/it]
+
+100%|██████████| 1/1 [00:08<00:00,  8.37s/it][A100%|██████████| 1/1 [00:08<00:00,  8.37s/it]
+
+100%|██████████| 1/1 [00:10<00:00, 10.10s/it][A100%|██████████| 1/1 [00:10<00:00, 10.10s/it]
+
+
+100%|██████████| 1/1 [00:10<00:00, 10.10s/it][A[A100%|██████████| 1/1 [00:10<00:00, 10.10s/it]
+100%|██████████| 1/1 [00:10<00:00, 10.14s/it]100%|██████████| 1/1 [00:10<00:00, 10.14s/it]

@@ -2,7 +2,6 @@ import socket
 import asyncio
 import time
 import sys
-import subprocess
 
 from stressTest.tools import *
 
@@ -12,7 +11,6 @@ async def listen_to_voice(text, idx, server_ip='localhost', server_port=9999, ra
     client_socket.connect((server_ip, server_port))
 
     buffer_data = b''
-    start_time = time.time()
 
     async def play_audio_stream():
         nonlocal buffer_data
@@ -42,6 +40,8 @@ async def listen_to_voice(text, idx, server_ip='localhost', server_port=9999, ra
             pass
 
     try:
+        start_time = time.time()
+
         await asyncio.get_event_loop().run_in_executor(None, client_socket.sendall, text.encode('utf-8'))
         await play_audio_stream()
 
@@ -49,10 +49,11 @@ async def listen_to_voice(text, idx, server_ip='localhost', server_port=9999, ra
         stats['response_times'].append(response_time)
         stats['success_count'] += 1
 
-        with open(output_file, "wb") as f:
-            f.write(buffer_data)
+        # with open(output_file, "wb") as f:
+        #     f.write(buffer_data)
 
-        print(f"[DEBUG] {idx} idx save ok (response time: {response_time:.2f}s)")
+        # print(f"[DEBUG] {idx} idx save ok (response time: {response_time:.2f}s)")
+        print(f"[DEBUG] {idx} idx ok (response time: {response_time:.2f}s)")
 
     except Exception as e:
         print(f"Error in listen_to_voice: {e}")
@@ -62,24 +63,25 @@ async def listen_to_voice(text, idx, server_ip='localhost', server_port=9999, ra
         client_socket.close()
 
 
-def get_gpu_stats():
-    """Retrieve GPU usage stats using nvidia-smi."""
-    try:
-        output = subprocess.check_output(["nvidia-smi", "--query-gpu=utilization.gpu,memory.used", "--format=csv,noheader,nounits"]).decode()
-        gpu_stats = [line.split(",") for line in output.strip().split("\n")]
-        return [{"gpu_load": int(stat[0]), "memory_used": int(stat[1])} for stat in gpu_stats]
-    except Exception as e:
-        print(f"Error retrieving GPU stats: {e}")
-        return []
-
-
 async def main(services, eruption):
-    test_reqs = [
-        "你认为，抱歉，我们没有工号",
-        "现在浦，你还有什么想说的吗",
-        "呃，账，通话是有录音的，请注意您的态度，我们对您的情况如实反馈，希望你能积极配合处理此事。",
-        "合约明，你是想协商什么？现在要和你了解一些信息，可以吗。",
-    ]
+    test_reqs = ["你认为，抱歉，我们没有工号",
+                "现在浦，你还有什么想说的吗",
+                "呃，账，通话是有录音的，请注意您的态度，我们对您的情况如实反馈，希望你能积极配合处理此事。",
+                "合约明，你是想协商什么？现在要和你了解一些信息，可以吗。",
+                "你是再，抱歉，您可以自己处理，通过支付宝、微信等就可以",
+                "通话是，您还在之前的地方工作吗",
+                "美的金，达成一致了吗",
+                "我了解，好的，打扰您了，我们下来再了解一下情况，感谢您的反馈，祝您生活愉快，再见",
+                "已经约，这不重要，还是说回业务的事情",
+                "家里面，减免以后就能立即处理是吗？",
+                "现在浦，你还有什么想说的吗",
+                "你是再，抱歉，您可以自己处理，通过支付宝、微信等就可以",
+                "合约明，你是想协商什么？现在要和你了解一些信息，可以吗。",
+                "我了解，好的，打扰您了，我们下来再了解一下情况，感谢您的反馈，祝您生活愉快，再见",
+                ]
+
+    eruption = int(eruption)
+    test_reqs = test_reqs[:eruption]
 
     stats = {
         "response_times": [],
@@ -88,7 +90,7 @@ async def main(services, eruption):
         "gpu_stats": [],
     }
 
-    semaphore = asyncio.Semaphore(int(eruption))  # 限制并发数量
+    semaphore = asyncio.Semaphore(eruption)  # 限制并发数量
 
     async def limited_listen_to_voice(idx, text):
         service = services[idx % len(services)]
@@ -119,8 +121,8 @@ async def main(services, eruption):
     total_time = time.time() - start_time
 
 
-    print("[DEBUG] total_time: ", total_time)
     print("[DEBUG] sum(stats['response_times']): ", sum(stats['response_times']))
+    print(f"[DEBUG] total_time: {total_time:.2f}s")
 
     # 计算吞吐量、平均响应时间、GPU负载峰值、显存占用峰值
     avg_response_time = sum(stats['response_times']) / len(stats['response_times'])                                     # 平均响应时间：平均每个请求的耗时
@@ -130,23 +132,25 @@ async def main(services, eruption):
 
     # GPU平均负载计算
     total_gpu_load = sum(sum(gpu['gpu_load'] for gpu in gpu_stats) for gpu_stats in stats['gpu_stats'])
-    total_samples = sum(len(gpu_stats) for gpu_stats in stats['gpu_stats'])
+    # total_samples = sum(len(gpu_stats) for gpu_stats in stats['gpu_stats'])
+    total_samples = sum(num_cards for gpu_stats in stats['gpu_stats'])
     gpu_average_load = total_gpu_load / total_samples
 
-    print(f"[STATS] 平均响应时间: {avg_response_time:.2f} 秒")
+    print(f"[STATS] 平均响应时间: {avg_response_time:.2f}s")
     print(f"[STATS] 吞吐量: {throughput:.2f} 请求/秒")
-    print(f"[STATS] 成功率: {stats['success_count'] / len(test_reqs) * 100:.2f}%")
     print(f"[STATS] GPU 负载均值: {gpu_average_load:.2f}%")
     print(f"[STATS] GPU 负载峰值: {gpu_peak}%")
     print(f"[STATS] GPU 显存峰值: {memory_peak} MB")
+    print(f"[STATS] 成功率: {stats['success_count'] / len(test_reqs) * 100:.2f}%")
 
     print("[DEBUG] stats['response_times']: ", stats['response_times'])
+
 
 if __name__ == "__main__":
     instance_config = sys.argv[1]
     eruption = sys.argv[2]
 
-    services = parse_instance_config(instance_config)
+    services, num_instances, num_cards = parse_instance_config(instance_config)
     print("[DEBUG] 服务配置:", services)
 
     asyncio.run(main(services, eruption))

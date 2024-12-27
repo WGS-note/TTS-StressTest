@@ -1,0 +1,5 @@
+2024-12-27 10:05:42,749 - INFO - Service: {'server_ip': 'localhost', 'server_port': 9996, 'output_raw': './output/6_cuda2_{}.raw', 'device': 'cuda:2'}
+2024-12-27 10:05:49,587 - INFO - Server listening on localhost:9996
+2024-12-27 10:15:13,234 - INFO - Accepted connection from ('127.0.0.1', 59262)
+2024-12-27 10:16:03,057 - INFO - Accepted connection from ('127.0.0.1', 43818)
+2024-12-27 10:16:03,058 - INFO - Accepted connection from ('127.0.0.1', 43830)

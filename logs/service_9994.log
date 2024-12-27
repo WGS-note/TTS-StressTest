@@ -1,0 +1,26 @@
+2024-12-27 09:36:51,529 - INFO - Service: {'server_ip': 'localhost', 'server_port': 9994, 'output_raw': './output/4_cuda1_{}.raw', 'device': 'cuda:1'}
+2024-12-27 09:36:58,670 - INFO - Server listening on localhost:9994
+2024-12-27 09:43:20,182 - INFO - Accepted connection from ('127.0.0.1', 50048)
+2024-12-27 09:44:36,308 - INFO - Accepted connection from ('127.0.0.1', 43382)
+2024-12-27 09:45:23,185 - INFO - Accepted connection from ('127.0.0.1', 44040)
+2024-12-27 09:45:23,186 - INFO - Accepted connection from ('127.0.0.1', 44048)
+2024-12-27 09:46:22,533 - INFO - Accepted connection from ('127.0.0.1', 56458)
+2024-12-27 09:46:22,535 - INFO - Accepted connection from ('127.0.0.1', 56466)
+2024-12-27 09:46:22,536 - INFO - Accepted connection from ('127.0.0.1', 56474)
+2024-12-27 10:05:38,496 - INFO - Service: {'server_ip': 'localhost', 'server_port': 9994, 'output_raw': './output/4_cuda0_{}.raw', 'device': 'cuda:0'}
+2024-12-27 10:05:46,197 - INFO - Server listening on localhost:9994
+2024-12-27 10:13:30,870 - INFO - Accepted connection from ('127.0.0.1', 60390)
+2024-12-27 10:14:21,726 - INFO - Accepted connection from ('127.0.0.1', 51336)
+2024-12-27 10:15:13,234 - INFO - Accepted connection from ('127.0.0.1', 33620)
+2024-12-27 10:15:13,236 - INFO - Accepted connection from ('127.0.0.1', 33632)
+2024-12-27 10:16:03,057 - INFO - Accepted connection from ('127.0.0.1', 40964)
+2024-12-27 10:16:03,059 - INFO - Accepted connection from ('127.0.0.1', 40976)
+2024-12-27 10:17:36,166 - INFO - Service: {'server_ip': 'localhost', 'server_port': 9994, 'output_raw': './output/4_cuda3_{}.raw', 'device': 'cuda:3'}
+2024-12-27 10:17:43,330 - INFO - Server listening on localhost:9994
+2024-12-27 10:23:01,102 - INFO - Accepted connection from ('127.0.0.1', 42680)
+2024-12-27 10:23:48,097 - INFO - Accepted connection from ('127.0.0.1', 44214)
+2024-12-27 10:24:28,260 - INFO - Accepted connection from ('127.0.0.1', 36964)
+2024-12-27 10:24:28,262 - INFO - Accepted connection from ('127.0.0.1', 36972)
+2024-12-27 10:25:09,034 - INFO - Accepted connection from ('127.0.0.1', 40748)
+2024-12-27 10:25:09,036 - INFO - Accepted connection from ('127.0.0.1', 40756)
+2024-12-27 10:25:09,037 - INFO - Accepted connection from ('127.0.0.1', 40764)
