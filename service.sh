@@ -1,10 +1,17 @@
 #!/bin/bash
 
-
 input="$1"
 IFS=',' read -r first second <<< "$input"
 num_instances=$first
 num_cards=$second
+
+# 检查是否传递了 "close" 参数
+if [ "$2" == "close" ]; then
+    echo "Stopping all background services..."
+    pkill -f stressTest.service  # 根据实际服务名，终止所有后台服务
+    echo "All services stopped."
+    exit 0
+fi
 
 echo "First: $num_instances"
 echo "Second: $num_cards"
@@ -28,10 +35,9 @@ for ((i = 0; i < num_instances; i++)); do
     services+=("$service")
 done
 
-
+# 启动服务
 for service in "${services[@]}"; do
     echo $service
     nohup python -m stressTest.service $service &
     sleep 2
 done
-
